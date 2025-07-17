@@ -1,14 +1,14 @@
 import { UserIcon } from '@heroicons/react/24/outline';
+import { ShoppingCartIcon } from '@heroicons/react/24/outline';
 
 
 function Hero(){
     
 
-    const search=()=>{}
-    
+   
     return(
         <div className="">
-            <div className="flex font-normal bg-purple-700">
+            <div className="flex font-normal bg-sky-700">
                 <div className="flex flex-wrap p-5 gap-5 justify-center m-auto">
                     |<a href="/" className="text-white hover:text-teal-300">About Us</a>
                     |<a href="/" className="text-white hover:text-teal-300">Services</a>
@@ -31,16 +31,20 @@ function Hero(){
                            </input>
                     </form>
 
-                    <div className="justify-content m-auto text-center">
+                    <div className="flex gap-5 justify-content m-auto text-center">
                         <a href="/account" 
-                            className="flex flex-col items-center group"
-                            >
-                            <div className="bg-white p-2 rounded-full mb-1 group-hover:bg-gray-100 transition">
-                                <UserIcon className="w-5 h-5 text-blue-800" />
+                            className="flex flex-col items-center hover:text-teal-300 transition">
+                            <div className="">
+                                <UserIcon className="w-5 h-5"/>
                             </div>
-                            <span className="text-blue-800 text-sm group-hover:text-teal-300 transition">
                                 Account
-                            </span>
+                        </a>
+
+                        <a href="/" className="flex flex-col items-center hover:text-teal-300 transition">
+                            <div className="">
+                                <ShoppingCartIcon className="w-5 h-5"/>
+                            </div>
+                            Cart
                         </a>
                     </div>
                 </div>
