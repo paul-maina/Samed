@@ -47,22 +47,24 @@ function Header(){
                         </a>
                     </div>
                 </div>
-                <div className="dropdownMenu bg-sky-700 text-white p-4 font-normal">
-    <ul>
-        <li>
-            <div className="flex items-center mx-16">
-                <button onClick={() => setIsOpen(!isOpen)} className="flex flex-col gap-1 w-6 mr-4 ">
-                    <span className="block h-0.5 w-full bg-white"></span>
-                    <span className="block h-0.5 w-full bg-white"></span>
-                    <span className="block h-0.5 w-full bg-white"></span>
-                </button>
-                <span>ALL CATEGORIES</span>
-            </div>
 
-            {isOpen && (
-                <div className="absolute mx-16 bg-sky-700 text-white hover:text-black rounded z-50 p-4">
-                    {[
-                        {
+
+                <div className="dropdownMenu">
+                   <ul className="flex items-center gap-10 bg-sky-700 text-white p-4 font-normal">
+                    <li>
+                        <div className="flex items-center mx-16">
+                            <button onClick={() => setIsOpen(!isOpen)} className="flex flex-col gap-1 w-6 mr-4 ">
+                                <span className="block h-0.5 w-full bg-white"></span>
+                                <span className="block h-0.5 w-full bg-white"></span>
+                                <span className="block h-0.5 w-full bg-white"></span>
+                            </button>
+                            <span>ALL CATEGORIES</span>
+                        </div>
+
+                        {isOpen && (
+                            <div className="absolute mx-16 bg-sky-700 text-white hover:text-black rounded z-50 p-4">
+                                {[
+                                    {
                             name: "Medical Conditions",
                             subcategories: [
                                 "Fever", "Stomach Care Digestive health", "Pain Reliefmanagement",
@@ -98,14 +100,14 @@ function Header(){
                         }
                     ].map((category, index) => (
                         <div key={index} className="group relative">
-                            <a href="/" className="block px-2 py-1 hover:bg-gray-100 rounded">
+                            <a href="/" className="block hover:bg-gray-100 rounded">
                                 {category.name}
                             </a>
                             {category.subcategories.length > 0 && (
-                                <ul className="hidden group-hover:block absolute left-full top-0 ml-1 w-48 bg-sky-700 shadow-lg rounded p-2">
+                                <ul className="hidden group-hover:block absolute left-full full- top-0 ml-1 bg-sky-700 shadow-lg rounded p-2">
                                     {category.subcategories.map((subcategory, subIndex) => (
                                         <li key={subIndex}>
-                                            <a href="/" className="block px-2 py-1 hover:bg-sky-200 hover:text-black rounded">
+                                            <a href="/" className="block hover:bg-sky-200 hover:text-black rounded">
                                                 {subcategory}
                                             </a>
                                         </li>
@@ -114,18 +116,19 @@ function Header(){
                             )}
                         </div>
                     ))}
-
-                    <div className="mt-2">
-                        <a href="/" className="block px-2 py-1 hover:bg-gray-100 rounded">OFFERS</a>
-                    </div>
-                    <div className="mt-1">
-                        <a href="/" className="block px-2 py-1 hover:bg-gray-100 rounded">SUBMIT PRESCRIPTION</a>
-                    </div>
                 </div>
                         )}
-                    </li>
+                </li>
+                    <div className="">
+                    <a href="/" className=" hover:text-black ">OFFERS</a>
+                    </div>
+                    <div className="">
+                        <a href="/" className="hover:text-black ">SUBMIT PRESCRIPTION</a>
+                    </div>
                 </ul>
+                
             </div>
+            
         </div>
     )}
 
