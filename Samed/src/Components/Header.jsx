@@ -8,45 +8,51 @@ function Header(){
    
     return(
         <div className="">
-            <div className="flex font-normal bg-sky-700">
-                <div className="">paulkariz66@gmail.com</div>
-                 
-                <div className="flex flex-wrap gap-5 m-auto mr-5">
-                    |<a href="/" className="text-white hover:text-teal-300">About Us</a>
-                    |<a href="/" className="text-white hover:text-teal-300">Services</a>
-                    |<a href="/" className="text-white hover:text-teal-300">Blog</a>
-                    |<a href="/" className="text-white hover:text-teal-300">FAQ</a>
-                    |<a href="/" className="text-white hover:text-teal-300">Contact</a>|        
+            <div className="Menu1 ">
+                <div className="flex font-normal bg-sky-700 p-2 justify-between">
+                    <div className="mx-16">Free delivery within Mombasa</div>
+                    <div className="gap-5 flex px-10">
+                            |<a href="/" className="text-white cursor-pointer">About Us</a>
+                            |<a href="/" className="text-white cursor-pointer">Services</a>
+                            |<a href="/" className="text-white cursor-pointer">Blog</a>
+                            |<a href="/" className="text-white cursor-pointer">Contact</a>
+                    </div>      
                 </div>
-                <div>
-                    <a href="/account" className="px-5 mr-16 flex flex-col text-white items-center hover:text-black transition">
-                                <div><UserIcon className="w-5 h-5"/></div>
-                                Login/Register
-                    </a>
-                </div>
-            </div>
-
-                <div className="logo flex gap-10">
-                   <a href="">
-                        <img src="https://i.imgur.com/prS4lTC.png" alt="logo" className="w-auto h-20 mx-16"/>
-                    </a>
-                    
-                    <form className="w-1/2 text-center m-auto  p-2 rounded-3xl ">
-                        <input 
-                           type="text"
-                           placeholder="Search for products"
-                           className="w-full px-4 py-2 border text-left placeholder:text-left rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-400">
-                           </input>
-                    </form>
-
-                    <div className="flex gap-5 justify-center m-auto text-center">
-                        
-                        <a href="/" className="flex flex-col items-center hover:text-teal-300 transition">
-                           <div><ShoppingCartIcon className="w-5 h-5"/></div>
-                            Cart
-                        </a>
+                <div className="Menu2 flex gap-10 items-center justify-between p-2">
+                    <div>
+                        <a href="/">
+                                    <img src="https://i.imgur.com/prS4lTC.png" alt="logo" className="w-auto h-20 mx-16"/>
+                                </a>
                     </div>
+                    <div className="flex-1">
+                        <form className="w-full text-center p-2 rounded-3xl ">
+                                    <input 
+                                    type="text"
+                                    placeholder="Search for products"
+                                    className="w-full px-4 py-2 border text-left placeholder:text-left rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-400">
+                                    </input>
+                                </form>
+                    </div>
+                    <div>
+                        <ul className="flex gap-5 px-10">
+                            <li>
+                                <a href="/" className="flex flex-col items-center cursor-pointer transition">
+                                    <div><ShoppingCartIcon className="w-5 h-5"/></div>
+                                        Cart
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="/account" className="flex flex-col  items-center cursor-pointer transition">
+                                            <div><UserIcon className="w-5 h-5"/></div>
+                                            Login/Register
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
+                
+            </div>
 
 
                 <div className="dropdownMenu">
@@ -62,7 +68,7 @@ function Header(){
                         </div>
 
                         {isOpen && (
-                            <div className="absolute mx-16 bg-sky-700 text-white hover:text-black rounded z-50 p-4">
+                            <div className="absolute left-0 bg-sky-700 text-white rounded z-50 p-4 flex flex-col gap-y-2 mx-16">
                                 {[
                                     {
                             name: "Medical Conditions",
@@ -104,7 +110,7 @@ function Header(){
                                 {category.name}
                             </a>
                             {category.subcategories.length > 0 && (
-                                <ul className="hidden group-hover:block absolute left-full full- top-0 ml-1 bg-sky-700 shadow-lg rounded p-2">
+                                <ul className="hidden group-hover:block absolute left-full top-0 ml-1 bg-sky-700 shadow-lg rounded p-2 w-max">
                                     {category.subcategories.map((subcategory, subIndex) => (
                                         <li key={subIndex}>
                                             <a href="/" className="block hover:bg-sky-200 hover:text-black rounded">

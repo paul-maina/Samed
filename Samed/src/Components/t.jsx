@@ -1,81 +1,48 @@
-<div className="dropdownMenu bg-sky-700 text-white p-4 font-normal">
-    
-    <ul>
-        <li>
-            <div className="flex items-center mx-16">
-                <button onClick={() => setIsOpen(!isOpen)} className="flex flex-col gap-1 w-6 mr-4">
-                <span className="block h-o.5 bg-white"></span>
-                <span className="block h-o.5 bg-white"></span>
-                <span className="block h-o.5 bg-white"></span>
-                </button>
-                <span><a href="/" className="">ALL CATEGORIES</a></span>
-            </div>
+<div className="Menu1 ">
+    <div className="flex font-normal bg-sky-700">
+        <div className="">Free delivery within Mombasa</div>
+        <div>
+            <ul>
+                |<li><a href="/" className="text-white cursor-pointer">About Us</a></li>
+                |<li><a href="/" className="text-white cursor-pointer">Services</a></li>
+                |<li><a href="/" className="text-white cursor-pointer">Blog</a></li>
+                |<li><a href="/" className="text-white cursor-pointer">Contact</a></li>|
+            </ul>
+        </div>
             
-
-            {isOpen && (
-            <div className="absolute mx-16 bg-sky-700 text-white hover:text-black rounded z-50 p-4">
-                <ul>
-                <li><a href="/" className="block px-2 py-1 hover:bg-gray-100 rounded">Medical Conditions</a></li>
-                    <ul className="">
-                        <li><a href="/" className="">Fever</a></li>
-                        <li><a href="/" className="">Stomach Care Digestive health</a></li>
-                        <li><a href="/" className="">Pain Reliefmanagement</a></li>
-                        <li><a href="/" className="">Bone joint and muscle aches</a></li>
-                        <li><a href="/" className="">Diabetes</a></li>
-                        <li><a href="/" className="">Reproductive Health</a></li>
-                        <li><a href="/" className="">Allergy Relief</a></li>
-                        <li><a href="/" className="">HIV</a></li>
-                        <li><a href="/" className="">Bacterial fungal Protozoal infections</a></li>
-                        <li><a href="/" className="">Hypertension</a></li>
-                        <li><a href="/" className="">Oral care</a></li>
-                    </ul>
-                <li><a href="/" className="">Vitamins & Supplements</a>
-                    <ul>
-                        <li><a href="/" className="">Supplements</a></li>
-                        <li><a href="/" className="">Health foods & drinks</a></li>
-                        <li><a href="/" className="">Workout Essentials</a></li>
-                        <li><a href="/" className="">Weight Management</a></li>
-                    </ul>
+    </div>
+    <div className="Menu2 logo flex gap-10">
+        <div>
+            <a href="">
+                        <img src="https://i.imgur.com/prS4lTC.png" alt="logo" className="w-auto h-20 mx-16"/>
+                    </a>
+        </div>
+        <div>
+            <form className="w-1/2 text-center m-auto  p-2 rounded-3xl ">
+                        <input 
+                           type="text"
+                           placeholder="Search for products"
+                           className="w-full px-4 py-2 border text-left placeholder:text-left rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-400">
+                           </input>
+                    </form>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="/" className="flex flex-col items-center cursor-pointer transition">
+                           <div><ShoppingCartIcon className="w-5 h-5"/></div>
+                            Cart
+                        </a>
                 </li>
-                <li><a href="/" className="">Vitamins & Supplements</a>Beauty & Skin Care
-                    <ul>
-                        <li><a href="" className="">Hair care</a></li>
-                        <li><a href="" className="">Acne</a></li>
-                        <li><a href="" className="">Face care</a></li>
-                        <li><a href="" className="">Beard care</a></li>
-                    </ul>
-                </li>
-                <li><a href="/" className="">Personal Care & Hygiene</a>
-                    <ul>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                    </ul>
-                </li>
-                <li><a href="/" className="">First Aid & Emergency</a>
-                    <ul>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                    </ul>
-                </li>
-                <li><a href="/" className="">Medical Devices</a>
-                    <ul>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                        <li><a href="" className=""></a></li>
-                    </ul>
+                <li>
+                    <a href="/account" className="px-5 mr-16 flex flex-col text-white items-center cursor-pointer transition">
+                                <div><UserIcon className="w-5 h-5"/></div>
+                                Login/Register
+                    </a>
                 </li>
             </ul>
-
-                <ul><a href="/" className="">OFFERS</a></ul>
-                <ul><a href="/" className="">SUBMIT PRESCRIPTION</a></ul>
-            </div>)}
-      </li>
-
-    </ul>      
+        </div>
+        
+    </div>
  
 </div>
