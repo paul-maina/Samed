@@ -1,6 +1,8 @@
 import { UserIcon } from '@heroicons/react/24/outline';
 import { ShoppingCartIcon } from '@heroicons/react/24/outline';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Header(){
    const [isOpen, setIsOpen] = useState(false); // isOpen starts as false
@@ -12,17 +14,17 @@ function Header(){
                 <div className="flex font-normal bg-sky-700 p-2 justify-between">
                     <div className="mx-16">Free delivery within Mombasa</div>
                     <div className="gap-5 flex px-10">
-                            |<a href="/" className="text-white cursor-pointer">About Us</a>
-                            |<a href="/" className="text-white cursor-pointer">Services</a>
-                            |<a href="/" className="text-white cursor-pointer">Blog</a>
-                            |<a href="/" className="text-white cursor-pointer">Contact</a>
+                            |<Link to="/about" className="text-white cursor-pointer">About Us</Link>
+                            |<Link to="/services" className="text-white cursor-pointer">Services</Link>
+                            |<Link to="/blogs" className="text-white cursor-pointer">Blogs</Link>
+                            |<Link to="/contact" className="text-white cursor-pointer">Contact</Link>
                     </div>      
                 </div>
                 <div className="Menu2 flex gap-10 items-center justify-between p-2">
                     <div>
-                        <a href="/">
+                        <Link to="/">
                                     <img src="https://i.imgur.com/prS4lTC.png" alt="logo" className="w-auto h-20 mx-16"/>
-                                </a>
+                                </Link>
                     </div>
                     <div className="flex-1">
                         <form className="w-full text-center p-2 rounded-3xl ">
@@ -36,16 +38,16 @@ function Header(){
                     <div>
                         <ul className="flex gap-5 px-10">
                             <li>
-                                <a href="/" className="flex flex-col items-center cursor-pointer transition">
+                                <Link to="/cart" className="flex flex-col items-center cursor-pointer transition">
                                     <div><ShoppingCartIcon className="w-5 h-5"/></div>
                                         Cart
-                                    </a>
+                                    </Link>
                             </li>
                             <li>
-                                <a href="/account" className="flex flex-col  items-center cursor-pointer transition">
+                                <Link to="/account" className="flex flex-col  items-center cursor-pointer transition">
                                             <div><UserIcon className="w-5 h-5"/></div>
                                             Login/Register
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -106,16 +108,16 @@ function Header(){
                         }
                     ].map((category, index) => (
                         <div key={index} className="group relative">
-                            <a href="/" className="block hover:bg-gray-100 rounded">
+                            <Link to="/" className="block hover:bg-gray-100 rounded">
                                 {category.name}
-                            </a>
+                            </Link>
                             {category.subcategories.length > 0 && (
                                 <ul className="hidden group-hover:block absolute left-full top-0 ml-1 bg-sky-700 shadow-lg rounded p-2 w-max">
                                     {category.subcategories.map((subcategory, subIndex) => (
                                         <li key={subIndex}>
-                                            <a href="/" className="block hover:bg-sky-200 hover:text-black rounded">
+                                            <Link to="/" className="block hover:bg-sky-200 hover:text-black rounded">
                                                 {subcategory}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>
@@ -126,10 +128,10 @@ function Header(){
                         )}
                 </li>
                     <div className="">
-                    <a href="/" className=" hover:text-black ">OFFERS</a>
+                    <Link to="/offers" className=" hover:text-black ">OFFERS</Link>
                     </div>
                     <div className="">
-                        <a href="/" className="hover:text-black ">SUBMIT PRESCRIPTION</a>
+                        <Link to="/submit prescription" className="hover:text-black ">SUBMIT PRESCRIPTION</Link>
                     </div>
                 </ul>
                 
