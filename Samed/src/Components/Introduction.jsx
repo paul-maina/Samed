@@ -15,7 +15,7 @@ function Introduction() {
   };
 
   return (
-    <div className="w-full overflow-hidden max-w-6xl m-auto p-5">
+    <div className="w-full overflow-hidden  m-auto p-5 ">
       <Slider {...settings} className="w-full ">
         <div>
           <img

@@ -1,50 +1,55 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function MedicineList() {
   const [medicines, setMedicines] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("https://animated-space-xylophone-97w7jrp997gjcx95v-5000.app.github.dev/api/medicines")
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error(`HTTP error! Status: ${res.status}`);
-        }
-        return res.json();
-      })
-      .then((data) => {
-        setMedicines(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        setError(err.message);
-        setLoading(false);
-      });
+    ffetch("https://animated-space-xylophone-97w7jrp997gjcx95v-5000.app.github.dev/api/medicines")
+  .then(res => res.json())
+  .then(data => setMedicines(data))
+  .catch(err => console.error("Error fetching medicines:", err));
+;
   }, []);
 
-  if (loading) {
-    return <p>Loading medicines...</p>;
-  }
-
-  if (error) {
-    return <p className="text-red-500">Error: {error}</p>;
-  }
-
   return (
-    <div className="p-6">
-      <h1 className="text-xl font-bold mb-4">Medicine List</h1>
-      <ul className="space-y-2">
+    <div>
+      <h2>Available Medicines</h2>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          gap: "20px",
+        }}
+      >
         {medicines.map((med) => (
-          <li
-            key={med._id || med.id}
-            className="border rounded-lg p-3 shadow-sm hover:shadow-md"
+          <div
+            key={med._id}
+            style={{
+              border: "1px solid #ddd",
+              padding: "10px",
+              borderRadius: "8px",
+            }}
           >
-            <h2 className="font-semibold">{med.name}</h2>
-            <p className="text-gray-600">Category: {med.category}</p>
-          </li>
+            <img
+              src={med.image}
+              alt={med.name}
+              style={{
+                width: "100%",
+                height: "150px",
+                objectFit: "cover",
+              }}
+            />
+            <h3>{med.name}</h3>
+            <p>
+              <strong>Category:</strong> {med.category}
+            </p>
+            <p>{med.description}</p>
+            <p>
+              <strong>Price:</strong> Ksh {med.price}
+            </p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
