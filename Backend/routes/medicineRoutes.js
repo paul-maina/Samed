@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Medicine = require("../models/Medicine");
 
-// @desc Get all medicines
+// Get ALL medicines
 router.get("/", async (req, res) => {
   try {
     const medicines = await Medicine.find();
@@ -12,18 +12,33 @@ router.get("/", async (req, res) => {
   }
 });
 
-// @desc Get single medicine by ID
+// Get medicines by CATEGORY
+router.get("/category/:category", async (req, res) => {
+  try {
+    const category = decodeURIComponent(req.params.category);
+    const medicines = await Medicine.find({
+      category: { $regex: new RegExp(`^${category}$`, "i") },
+    });
+    res.json(medicines);
+  } catch (error) {
+    res.status(500).json({ message: "Server error" });
+  }
+});
+
+// Get single medicine by ID (this MUST come last)
 router.get("/:id", async (req, res) => {
   try {
     const medicine = await Medicine.findById(req.params.id);
-    if (!medicine) return res.status(404).json({ message: "Medicine not found" });
+    if (!medicine) {
+      return res.status(404).json({ message: "Medicine not found" });
+    }
     res.json(medicine);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 });
 
-// @desc Add new medicine
+// Create new medicine
 router.post("/", async (req, res) => {
   try {
     const newMed = new Medicine(req.body);
@@ -34,7 +49,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// @desc Update medicine
+// Update medicine
 router.put("/:id", async (req, res) => {
   try {
     const updatedMed = await Medicine.findByIdAndUpdate(
@@ -42,18 +57,22 @@ router.put("/:id", async (req, res) => {
       req.body,
       { new: true }
     );
-    if (!updatedMed) return res.status(404).json({ message: "Medicine not found" });
+    if (!updatedMed) {
+      return res.status(404).json({ message: "Medicine not found" });
+    }
     res.json(updatedMed);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 });
 
-// @desc Delete medicine
+// Delete medicine
 router.delete("/:id", async (req, res) => {
   try {
     const deletedMed = await Medicine.findByIdAndDelete(req.params.id);
-    if (!deletedMed) return res.status(404).json({ message: "Medicine not found" });
+    if (!deletedMed) {
+      return res.status(404).json({ message: "Medicine not found" });
+    }
     res.json({ message: "Medicine deleted" });
   } catch (error) {
     res.status(500).json({ message: error.message });

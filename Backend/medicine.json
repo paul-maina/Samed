@@ -1,1562 +1,1691 @@
+
 [
   {
     "id": 1,
-    "name": "Paracetamol Suspension",
-    "category": "Medical Conditions",
-    "description": "Pain reliever and fever reducer",
-    "price": 350,
-    "image": "https://i.postimg.cc/5NfbQCkR/paracetamol.jpg"
+    "name": "Digital Thermometer",
+    "category": "Medical Devices",
+    "description": "Used to measure body temperature",
+    "price": 700,
+    "image": "https://i.postimg.cc/W1mGSjWc/Digital-Thermometer.png"
   },
   {
     "id": 2,
-    "name": "Diclofenac Gel",
-    "category": "First Aid & Emergency",
-    "description": "Anti-inflammatory and pain relief for muscle and joint pain",
+    "name": "Bulkot Mixi Cream 0.025%W / 1%W / 1%W",
+    "category": "Beauty & Skin Care",
+    "description": "Used for treating skin irritation and inflammation",
     "price": 250,
-    "image": "https://i.postimg.cc/RCLzm0VQ/diclofenac.jpg"
+    "image": "https://i.postimg.cc/CLpTfH9r/Bulkot-Mixi-Cream.png"
   },
   {
     "id": 3,
-    "name": "Ibuprofen Tablets",
+    "name": "Cripton 2.5MG",
     "category": "Medical Conditions",
-    "description": "Painkiller and anti-inflammatory",
-    "price": 60,
-    "image": "https://i.postimg.cc/yYf4JrRD/ibuprofen-400-mg-bp-tablets-500x500.webp"
+    "description": "Used to manage hypertension",
+    "price": 120,
+    "image": "https://i.postimg.cc/Jnd7LDnV/Cripton.png"
   },
   {
     "id": 4,
-    "name": "Amoxicillin Cream",
-    "category": "Medical Devices",
-    "description": "Antibiotic for bacterial skin infections",
+    "name": "Dawacort 1%W/W",
+    "category": "Medical Conditions",
+    "description": "Topical corticosteroid for skin inflammation",
     "price": 120,
-    "image": "https://i.postimg.cc/1X92Xp50/amoxillin.png"
+    "image": "https://i.postimg.cc/prTZm7R5/Dawacort.png"
   },
   {
     "id": 5,
-    "name": "Hydrocortisone",
-    "category": "Beauty & Skin Care",
-    "description": "Reduces inflammation and treats skin irritation",
-    "price": 150,
-    "image": "https://i.postimg.cc/bNVWYSXb/hydrocortisone-cream-30g-1box.jpg"
+    "name": "Kamagra Jelly 100MG",
+    "category": "Medical Conditions",
+    "description": "Used for erectile dysfunction treatment",
+    "price": 300,
+    "image": "https://i.postimg.cc/grbnCXSc/kamagra-jelly.png"
   },
   {
     "id": 6,
-    "name": "Syrup Salbutamol",
+    "name": "Acinet 625 500MG / 125MG",
     "category": "Medical Conditions",
-    "description": "Relieves bronchospasm in asthma and COPD",
+    "description": "Antibiotic for bacterial infections",
     "price": 650,
-    "image": "https://i.postimg.cc/dVzfrMVV/salbutamol.webp"
+    "image": "https://i.postimg.cc/wMmCGFbP/Acinet.png"
   },
   {
     "id": 7,
-    "name": "Multivitamin Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Supports overall health and immunity",
-    "price": 400,
-    "image": "https://i.postimg.cc/RFTpkNQW/Multivitamin-Syrup-100ml.webp"
+    "name": "Relcer Gel",
+    "category": "Medical Conditions",
+    "description": "Used to relieve acidity and ulcers",
+    "price": 0,
+    "image": "https://i.postimg.cc/QNQS0R6D/relcer-gel.png"
   },
   {
     "id": 8,
-    "name": "Eye Drops",
-    "category": "Personal Care & Hygiene",
-    "description": "Relieves dry or irritated eyes",
-    "price": 20,
-    "image": "https://i.postimg.cc/yYxpG6JN/Eye-Drops-1.jpg"
+    "name": "Eno 43.14%W / 55.76%W",
+    "category": "Vitamins & Supplements",
+    "description": "Used for relief from acidity and indigestion",
+    "price": 540,
+    "image": "https://i.postimg.cc/vTP8wq08/Eno.png"
   },
   {
     "id": 9,
-    "name": "Nasal Spray",
-    "category": "Medical Devices",
-    "description": "Decongestant for nasal congestion",
-    "price": 70,
-    "image": "https://i.postimg.cc/W1JW29wL/nasal-spray.jpg"
+    "name": "Abz 200MG/5ML",
+    "category": "Medical Conditions",
+    "description": "Antiparasitic medicine for worm infections",
+    "price": 210,
+    "image": "https://i.postimg.cc/BnLKwFqF/Abz.png"
   },
   {
     "id": 10,
-    "name": "Cough Syrup",
+    "name": "Thiocarb Prom 100MG/5ML / 2.5MG/5ML",
     "category": "Medical Conditions",
-    "description": "Relieves dry or productive cough",
-    "price": 250,
-    "image": "https://i.postimg.cc/hjMMCNcx/cough-syrup.webp"
+    "description": "Used for cough relief and respiratory conditions",
+    "price": 1500,
+    "image": "https://i.postimg.cc/XJQqvNj3/Thiocarb-Prom.png"
   },
   {
     "id": 11,
-    "name": "Antiseptic Lotion",
+    "name": "Methylated Spirit",
     "category": "First Aid & Emergency",
-    "description": "Prevents infection in minor cuts and wounds",
-    "price": 70,
-    "image": "antiseptic_lotion.jpg"
+    "description": "Used as a disinfectant and antiseptic",
+    "price": 140,
+    "image": "https://i.postimg.cc/50N9Dcwr/methylated-spirit.png"
   },
   {
     "id": 12,
-    "name": "Liver Tonic",
-    "category": "Vitamins & Supplements",
-    "description": "Supports liver health and function",
-    "price": 150,
-    "image": "liver_tonic.jpg"
+    "name": "Allucid",
+    "category": "Medical Conditions",
+    "description": "Used to treat acidity and heartburn",
+    "price": 300,
+    "image": "https://i.postimg.cc/G90CL6yd/Allucid.png"
   },
   {
     "id": 13,
-    "name": "Calamine Lotion",
-    "category": "Beauty & Skin Care",
-    "description": "Soothes itching and minor skin irritations",
+    "name": "Fertilion F",
+    "category": "Vitamins & Supplements",
+    "description": "Fertility supplement for women",
     "price": 2500,
-    "image": "calamine_lotion.jpg"
+    "image": "https://i.postimg.cc/RZZBM133/Fertilion-F.png"
   },
   {
     "id": 14,
-    "name": "Vitamin C Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Boosts immunity and prevents vitamin C deficiency",
-    "price": 250,
-    "image": "vitamin_c_syrup.jpg"
+    "name": "Cotrimox 200MG/5ML / 40MG/5ML",
+    "category": "Medical Conditions",
+    "description": "Antibiotic for bacterial infections",
+    "price": 500,
+    "image": "https://i.postimg.cc/DwJxdmHj/Cotrimoxazole.png"
   },
   {
     "id": 15,
-    "name": "Oral Rehydration Salts",
-    "category": "First Aid & Emergency",
-    "description": "Prevents dehydration due to diarrhea",
+    "name": "Clotrine B Cream 0.05%W / 1%W",
+    "category": "Beauty & Skin Care",
+    "description": "Used for fungal skin infections",
     "price": 150,
-    "image": "oral_rehydration_salts.jpg"
+    "image": "https://i.postimg.cc/J4my5FF9/Clotrine.png"
   },
   {
     "id": 16,
-    "name": "Baby Oil",
+    "name": "Trust Studded",
     "category": "Personal Care & Hygiene",
-    "description": "Moisturizes and protects baby’s skin",
-    "price": 100,
-    "image": "baby_oil.jpg"
+    "description": "Studded condoms for contraception and protection",
+    "price": 900,
+    "image": "https://i.postimg.cc/Df6YPSyF/Trust-Studded.png"
   },
   {
     "id": 17,
-    "name": "Antacid Suspension",
+    "name": "Lacoff 7MG/5ML / 28.5MG/5ML",
     "category": "Medical Conditions",
-    "description": "Relieves heartburn and indigestion",
-    "price": 150,
-    "image": "antacid_suspension.jpg"
+    "description": "Used as cough suppressant syrup",
+    "price": 750,
+    "image": "https://i.postimg.cc/J0XHrWB7/Lacoff.png"
   },
   {
     "id": 18,
-    "name": "Vitamin D Drops",
-    "category": "Vitamins & Supplements",
-    "description": "Supports bone health and immune function",
-    "price": 10,
-    "image": "vitamin_d_drops.jpg"
+    "name": "Elastoplast",
+    "category": "First Aid & Emergency",
+    "description": "Adhesive bandage for wound protection",
+    "price": 840,
+    "image": "https://i.postimg.cc/jjC5qrpV/elastoplast.png"
   },
   {
     "id": 19,
-    "name": "Iron Supplement",
-    "category": "Vitamins & Supplements",
-    "description": "Treats iron deficiency anemia",
-    "price": 100,
-    "image": "iron_supplement.jpg"
+    "name": "Triofen 100MG/5ML",
+    "category": "Medical Conditions",
+    "description": "Used for fever and pain relief in children",
+    "price": 300,
+    "image": "https://i.postimg.cc/zG2zccVx/Triofen.png"
   },
   {
     "id": 20,
-    "name": "Children's Cough Syrup",
+    "name": "Dawa-Cpm 2MG/5ML",
     "category": "Medical Conditions",
-    "description": "Relieves cough in children",
-    "price": 100,
-    "image": "childrens_cough_syrup.jpg"
+    "description": "Antihistamine syrup for allergy relief",
+    "price": 500,
+    "image": "https://i.postimg.cc/DwSk8ywc/Dawa-Cpm.png"
   },
   {
     "id": 21,
-    "name": "Zinc Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Boosts immunity and promotes healing",
-    "price": 50,
-    "image": "zinc_syrup.jpg"
+    "name": "Acetal 250MG / 50MG / 325MG",
+    "category": "Medical Conditions",
+    "description": "Combination drug for pain and fever relief",
+    "price": 3400,
+    "image": "https://i.postimg.cc/4315GpR2/Acetal.png"
   },
   {
     "id": 22,
-    "name": "Skin Repair Cream",
-    "category": "Beauty & Skin Care",
-    "description": "Repairs dry and damaged skin",
+    "name": "Deep Freeze Gel",
+    "category": "First Aid & Emergency",
+    "description": "Cooling gel for muscle and joint pain",
     "price": 600,
-    "image": "skin_repair_cream.jpg"
+    "image": "https://i.postimg.cc/KzkDMwgw/Deep-Freeze-Gel.png"
   },
   {
     "id": 23,
-    "name": "Antifungal Lotion",
+    "name": "Trumol 120MG/5ML",
     "category": "Medical Conditions",
-    "description": "Treats fungal skin infections",
-    "price": 200,
-    "image": "antifungal_lotion.jpg"
+    "description": "Paracetamol syrup for fever and pain relief",
+    "price": 400,
+    "image": "https://i.postimg.cc/x1pm3gY2/Trumol.png"
   },
   {
     "id": 24,
-    "name": "Wound Cleaning Solution",
-    "category": "First Aid & Emergency",
-    "description": "Disinfects wounds and cuts",
-    "price": 5,
-    "image": "wound_cleaning_solution.jpg"
+    "name": "Needles G23",
+    "category": "Medical Devices",
+    "description": "Used with syringes for injections",
+    "price": 515,
+    "image": "https://i.postimg.cc/FsWzMR6b/Needles-G23.png"
   },
   {
     "id": 25,
-    "name": "Adhesive Bandages",
-    "category": "First Aid & Emergency",
-    "description": "Covers and protects minor wounds",
-    "price": 30,
-    "image": "adhesive_bandages.jpg"
+    "name": "Eno Lemon 4.5GM",
+    "category": "Vitamins & Supplements",
+    "description": "Used for acidity and indigestion relief",
+    "price": 1380,
+    "image": "https://i.postimg.cc/vTP8wq08/Eno.png"
   },
   {
     "id": 26,
-    "name": "Inhaler",
-    "category": "Medical Devices",
-    "description": "Relieves asthma symptoms",
+    "name": "Cotton 50MG",
+    "category": "First Aid & Emergency",
+    "description": "Absorbent cotton wool for wound care",
     "price": 100,
-    "image": "inhaler.jpg"
+    "image": "https://i.postimg.cc/YC6V4GwY/Cotton-50-MG.png"
   },
   {
     "id": 27,
-    "name": "Digital Thermometer",
+    "name": "Disposable Syringe Needle 10ML",
     "category": "Medical Devices",
-    "description": "Measures body temperature accurately",
-    "price": 20,
-    "image": "digital_thermometer.jpg"
+    "description": "Used for injecting or withdrawing fluids",
+    "price": 460,
+    "image": "https://i.postimg.cc/5yWKNbkn/Disposable-Syringe-Needle-10-ML.png"
   },
   {
     "id": 28,
-    "name": "Antihistamine Tablets",
+    "name": "Calpol Infant 120MG/5ML",
     "category": "Medical Conditions",
-    "description": "Relieves allergy symptoms",
+    "description": "Paracetamol syrup for infants’ fever and pain",
     "price": 350,
-    "image": "antihistamine_tablets.jpg"
+    "image": "https://i.postimg.cc/PJdbRx7s/Calpol-Infant.png"
   },
   {
     "id": 29,
-    "name": "Ear Drops",
+    "name": "Super Amp",
     "category": "Medical Conditions",
-    "description": "Treats ear infections and pain",
-    "price": 100,
-    "image": "ear_drops.jpg"
+    "description": "Antibiotic injection for infections",
+    "price": 300,
+    "image": "https://i.postimg.cc/jjKjN7nb/Super-Amp.png"
   },
   {
     "id": 30,
-    "name": "Burn Relief Gel",
-    "category": "First Aid & Emergency",
-    "description": "Soothes and heals minor burns",
-    "price": 10,
-    "image": "burn_relief_gel.jpg"
+    "name": "Eflaron 400MG",
+    "category": "Medical Conditions",
+    "description": "Antimalarial medication",
+    "price": 210,
+    "image": "https://i.postimg.cc/d1ZtcmzG/Eflaron-400-MG.png"
   },
   {
     "id": 31,
-    "name": "Cold Relief Syrup",
-    "category": "Medical Conditions",
-    "description": "Relieves cold symptoms like congestion and sore throat",
-    "price": 250,
-    "image": "cold_relief_syrup.jpg"
+    "name": "Bonnisan 6MG",
+    "category": "Vitamins & Supplements",
+    "description": "Digestive tonic for children",
+    "price": 600,
+    "image": "https://i.postimg.cc/zfR9JtGD/Bonnisan.png"
   },
   {
     "id": 32,
-    "name": "Calamine Lotion",
-    "category": "Beauty & Skin Care",
-    "description": "Soothes skin irritation and itching",
-    "price": 250,
-    "image": "calamine_lotion.jpg"
+    "name": "Kofgon",
+    "category": "Medical Conditions",
+    "description": "Cough syrup for cold and cough relief",
+    "price": 0,
+    "image": "https://i.postimg.cc/XqyZx0jS/Kofgon.png"
   },
   {
     "id": 33,
-    "name": "Antiseptic Liquid",
-    "category": "First Aid & Emergency",
-    "description": "Disinfects cuts, wounds, and surfaces",
-    "price": 500,
-    "image": "antiseptic_liquid.jpg"
+    "name": "Ceovit 100MG",
+    "category": "Vitamins & Supplements",
+    "description": "Vitamin C supplement",
+    "price": 0,
+    "image": ""
   },
   {
     "id": 34,
-    "name": "Cough Drops",
+    "name": "Tridahist 50MG/5ML / 2MG/5ML / 5MG/5ML",
     "category": "Medical Conditions",
-    "description": "Soothes sore throat and cough",
-    "price": 150,
-    "image": "cough_drops.jpg"
+    "description": "Syrup for allergies and cold relief",
+    "price": 1500,
+    "image": "https://i.postimg.cc/02y58vR8/Ceovit.png"
   },
   {
     "id": 35,
-    "name": "Pain Relief Spray",
+    "name": "Amoxil 500 500MG",
     "category": "Medical Conditions",
-    "description": "Provides relief from muscle and joint pain",
-    "price": 150,
-    "image": "pain_relief_spray.jpg"
+    "description": "Antibiotic for bacterial infections",
+    "price": 80,
+    "image": "https://i.postimg.cc/mrYhPSdR/Amoxil.png"
   },
   {
     "id": 36,
-    "name": "Vitamin C Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Boosts immunity and reduces fatigue",
-    "price": 10,
-    "image": "vitamin_c_syrup.jpg"
+    "name": "Povidone 1%W",
+    "category": "First Aid & Emergency",
+    "description": "Antiseptic solution for wound cleaning",
+    "price": 400,
+    "image": "https://i.postimg.cc/Gm0cvyTp/Povidone.png"
   },
   {
     "id": 37,
-    "name": "Hair Growth Oil",
-    "category": "Beauty & Skin Care",
-    "description": "Stimulates hair growth and nourishes scalp",
-    "price": 150,
-    "image": "hair_growth_oil.jpg"
+    "name": "Fastum Gel 2.5%W",
+    "category": "First Aid & Emergency",
+    "description": "Topical gel for pain and inflammation",
+    "price": 500,
+    "image": "https://i.postimg.cc/xCdY9Gh6/Fastum-Gel.png"
   },
   {
     "id": 38,
-    "name": "Eye Drops",
+    "name": "Benaflu Toto 2MG/5ML / 120MG/5ML / 10MG/5ML",
     "category": "Medical Conditions",
-    "description": "Lubricates and soothes dry or irritated eyes",
-    "price": 100,
-    "image": "eye_drops.jpg"
+    "description": "Syrup for cold and flu symptoms",
+    "price": 300,
+    "image": "https://i.postimg.cc/cLZLV3xb/Benaflu-Toto.png"
   },
   {
     "id": 39,
-    "name": "Skin Lightening Cream",
-    "category": "Beauty & Skin Care",
-    "description": "Lightens dark spots and evens skin tone",
-    "price": 150,
-    "image": "skin_lightening_cream.jpg"
+    "name": "Hydrogen Peroxide 6%W",
+    "category": "First Aid & Emergency",
+    "description": "Disinfectant for wound cleaning",
+    "price": 300,
+    "image": "https://i.postimg.cc/y6X5L3Gd/Hydrogen-Peroxide.png"
   },
   {
     "id": 40,
-    "name": "Nasal Spray",
-    "category": "Medical Conditions",
-    "description": "Clears nasal congestion and sinus pressure",
-    "price": 100,
-    "image": "nasal_spray.jpg"
+    "name": "Cotton 200MG",
+    "category": "First Aid & Emergency",
+    "description": "Absorbent cotton wool for medical use",
+    "price": 600,
+    "image": "https://i.postimg.cc/YC6V4GwY/Cotton-50-MG.png"
   },
   {
     "id": 41,
-    "name": "Liver Tonic",
-    "category": "Vitamins & Supplements",
-    "description": "Supports liver health and detoxification",
-    "price": 250,
-    "image": "liver_tonic.jpg"
+    "name": "Lydia Injection 1.5MG",
+    "category": "Medical Conditions",
+    "description": "Hormonal injection for fertility regulation",
+    "price": 200,
+    "image": "https://i.postimg.cc/02XV4Y08/Lydia-Injection.png"
   },
   {
     "id": 42,
-    "name": "Toothache Gel",
-    "category": "Personal Care & Hygiene",
-    "description": "Provides fast relief from tooth pain",
-    "price": 10,
-    "image": "toothache_gel.jpg"
+    "name": "Curamol 120MG/5ML",
+    "category": "Medical Conditions",
+    "description": "Paracetamol syrup for fever and pain",
+    "price": 1200,
+    "image": "https://i.postimg.cc/gjT3gDFQ/Curamol.png"
   },
   {
     "id": 43,
-    "name": "Blood Tonic",
-    "category": "Vitamins & Supplements",
-    "description": "Improves blood circulation and treats anemia",
-    "price": 200,
-    "image": "blood_tonic.jpg"
+    "name": "Adiflam Gel 30MG",
+    "category": "First Aid & Emergency",
+    "description": "Anti-inflammatory topical gel",
+    "price": 300,
+    "image": "https://i.postimg.cc/RCLzm0VQ/diclofenac.jpg"
   },
   {
     "id": 44,
-    "name": "Multivitamin Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Supports overall health and vitality",
-    "price": 400,
-    "image": "multivitamin_syrup.jpg"
+    "name": "Good Morning",
+    "category": "Personal Care & Hygiene",
+    "description": "Mouthwash for oral hygiene",
+    "price": 150,
+    "image": "https://i.postimg.cc/CLvhdxbv/Good-Morning.png"
   },
   {
     "id": 45,
-    "name": "Allergy Relief Tablets",
+    "name": "Brufen 400MG",
     "category": "Medical Conditions",
-    "description": "Treats allergic reactions like sneezing and rashes",
-    "price": 150,
-    "image": "allergy_relief_tablets.jpg"
+    "description": "Pain reliever and anti-inflammatory tablet",
+    "price": 690,
+    "image": "https://i.postimg.cc/yYf4JrRD/ibuprofen-400-mg-bp-tablets-500x500.webp"
   },
   {
     "id": 46,
-    "name": "Diarrhea Relief Suspension",
+    "name": "Kemoxyl Dry 125MG/5ML",
     "category": "Medical Conditions",
-    "description": "Treats diarrhea and stomach upset",
+    "description": "Antibiotic syrup for bacterial infections",
     "price": 150,
-    "image": "diarrhea_relief_suspension.jpg"
+    "image": "https://i.postimg.cc/tgQL4KvS/Kemoxyl-Dry.png"
   },
   {
     "id": 47,
-    "name": "Nappy Rash Cream",
-    "category": "Personal Care & Hygiene",
-    "description": "Prevents and treats diaper rash in babies",
-    "price": 200,
-    "image": "nappy_rash_cream.jpg"
+    "name": "Clozole 1%W",
+    "category": "Beauty & Skin Care",
+    "description": "Antifungal cream for skin infections",
+    "price": 600,
+    "image": "https://i.postimg.cc/fynKcsXp/Clozole.png"
   },
   {
     "id": 48,
-    "name": "Cold & Flu Tablets",
+    "name": "Pergalin 75MG",
     "category": "Medical Conditions",
-    "description": "Relieves symptoms of cold and flu",
-    "price": 150,
-    "image": "cold_flu_tablets.jpg"
+    "description": "Used to treat nerve pain and seizures",
+    "price": 1500,
+    "image": "https://i.postimg.cc/8CfMt31S/Pregabalin.png"
   },
   {
     "id": 49,
-    "name": "Herbal Cough Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Natural remedy for cough and throat irritation",
-    "price": 100,
-    "image": "herbal_cough_syrup.jpg"
+    "name": "Hitoral Cream 20MG/GM",
+    "category": "Beauty & Skin Care",
+    "description": "Topical cream for fungal infections",
+    "price": 500,
+    "image": "https://i.postimg.cc/Sx2nhMHL/Hitoral-Cream.png"
   },
   {
     "id": 50,
-    "name": "Menstrual Pain Tablets",
+    "name": "Tricoff",
     "category": "Medical Conditions",
-    "description": "Alleviates menstrual cramps and discomfort",
-    "price": 5,
-    "image": "menstrual_pain_tablets.jpg"
+    "description": "Cough syrup for relief of cough and cold",
+    "price": 1500,
+    "image": "https://i.postimg.cc/XqqVgMbK/tricoff.png"
   },
   {
     "id": 51,
-    "name": "Sunscreen Lotion",
-    "category": "Beauty & Skin Care",
-    "description": "Protects skin from UV rays and sunburn",
-    "price": 100,
-    "image": "sunscreen_lotion.jpg"
+    "name": "ORS Sachet",
+    "category": "Medical Conditions",
+    "description": "Restores body fluids and electrolytes lost during diarrhea or vomiting.",
+    "price": 25,
+    "image": "https://i.postimg.cc/mgsg05N4/ors-sachet.png"
   },
   {
     "id": 52,
-    "name": "Mouth Ulcer Gel",
+    "name": "ORS Ready to Drink",
     "category": "Medical Conditions",
-    "description": "Relieves pain and irritation from mouth ulcers",
-    "price": 50,
-    "image": "mouth_ulcer_gel.jpg"
+    "description": "Pre-mixed oral rehydration solution for quick hydration.",
+    "price": 60,
+    "image": "https://i.postimg.cc/FHpNwsHb/ors-ready-to-drink.png"
   },
   {
     "id": 53,
-    "name": "Wound Healing Cream",
-    "category": "First Aid & Emergency",
-    "description": "Speeds up healing of minor wounds and cuts",
-    "price": 100,
-    "image": "wound_healing_cream.jpg"
+    "name": "Glucose D",
+    "category": "Vitamins & Supplements",
+    "description": "Provides instant energy and replenishes glucose levels.",
+    "price": 120,
+    "image": "https://i.postimg.cc/ZnHw4gBQ/Glucose-D.png"
   },
   {
     "id": 54,
-    "name": "Multivitamin Tablets",
+    "name": "Glucose C",
     "category": "Vitamins & Supplements",
-    "description": "Supports immunity and overall wellness",
-    "price": 50,
-    "image": "multivitamin_tablets.jpg"
+    "description": "Instant energy source enriched with Vitamin C.",
+    "price": 140,
+    "image": "https://i.postimg.cc/dtW5fbKk/Glucose-c.png"
   },
   {
     "id": 55,
-    "name": "Stomach Acid Tablets",
-    "category": "Medical Conditions",
-    "description": "Neutralizes excess stomach acid",
-    "price": 150,
-    "image": "stomach_acid_tablets.jpg"
+    "name": "Zinc Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Boosts immunity and helps in the treatment of diarrhea in children.",
+    "price": 200,
+    "image": "https://i.postimg.cc/Jzf5VmYn/Zinc-Supplement-9-GM.png"
   },
   {
     "id": 56,
-    "name": "Stretch Mark Cream",
-    "category": "Beauty & Skin Care",
-    "description": "Reduces appearance of stretch marks",
-    "price": 10,
-    "image": "stretch_mark_cream.jpg"
+    "name": "ORS + Zinc Kit",
+    "category": "Medical Conditions",
+    "description": "Combination pack to treat dehydration and diarrhea.",
+    "price": 250,
+    "image": "https://i.postimg.cc/X7XfrXTq/ORS-Zinc-Kit.png"
   },
   {
     "id": 57,
-    "name": "Anti-Fungal Cream",
-    "category": "Medical Conditions",
-    "description": "Treats fungal skin infections like athlete’s foot",
-    "price": 150,
-    "image": "antifungal_cream.jpg"
+    "name": "Syringe 5ml",
+    "category": "Medical Devices",
+    "description": "Used for administering injections or withdrawing fluids.",
+    "price": 30,
+    "image": "https://i.postimg.cc/8cdz5dN9/Syringe-5ml.png"
   },
   {
     "id": 58,
-    "name": "Anti-Dandruff Shampoo",
-    "category": "Beauty & Skin Care",
-    "description": "Removes dandruff and prevents scalp itching",
-    "price": 70,
-    "image": "anti_dandruff_shampoo.jpg"
+    "name": "Syringe 10ml",
+    "category": "Medical Devices",
+    "description": "Used for administering larger doses of injections or fluids.",
+    "price": 40,
+    "image": "https://i.postimg.cc/VkZLdkPf/Syringe-10ml.png"
   },
   {
     "id": 59,
-    "name": "Iron Supplement Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Prevents and treats iron deficiency",
-    "price": 1500,
-    "image": "iron_supplement_syrup.jpg"
+    "name": "Syringe 20ml",
+    "category": "Medical Devices",
+    "description": "Used for high-volume injections or fluid withdrawal.",
+    "price": 50,
+    "image": "https://i.postimg.cc/Pq8hJbMy/Syringe-20ml.png"
   },
   {
     "id": 60,
-    "name": "Mosquito Repellent Lotion",
-    "category": "Personal Care & Hygiene",
-    "description": "Prevents mosquito bites and insect-borne diseases",
-    "price": 250,
-    "image": "mosquito_repellent_lotion.jpg"
+    "name": "Vitamin C Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Supports immune health and reduces risk of infections.",
+    "price": 300,
+    "image": "https://i.postimg.cc/Z5Jz4t9T/vitamin-c-tablets.png"
   },
   {
     "id": 61,
-    "name": "Children's Cough Syrup",
-    "category": "Medical Conditions",
-    "description": "Relieves cough and throat irritation in children",
-    "price": 60,
-    "image": "childrens_cough_syrup.jpg"
+    "name": "Multivitamin Syrup",
+    "category": "Vitamins & Supplements",
+    "description": "Liquid supplement to support general health and energy.",
+    "price": 500,
+    "image": "https://i.postimg.cc/GpJRvLZT/Multivitamin-Syrup.png"
   },
   {
     "id": 62,
-    "name": "Allergy Relief Tablets",
-    "category": "Medical Conditions",
-    "description": "Provides relief from allergy symptoms",
-    "price": 150,
-    "image": "allergy_relief_tablets.jpg"
+    "name": "Multivitamin Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Daily supplement providing essential vitamins and minerals.",
+    "price": 600,
+    "image": "https://i.postimg.cc/d01MZ2mp/multivitamin-tablets.png"
   },
   {
     "id": 63,
-    "name": "Hair Growth Oil",
-    "category": "Beauty & Skin Care",
-    "description": "Promotes hair growth and strengthens roots",
-    "price": 100,
-    "image": "hair_growth_oil.jpg"
+    "name": "Folic Acid Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Supports red blood cell production and prevents anemia.",
+    "price": 200,
+    "image": "https://i.postimg.cc/XYjmtfhq/folic-acid-tablets.png"
   },
   {
     "id": 64,
-    "name": "Face Wash for Acne",
-    "category": "Beauty & Skin Care",
-    "description": "Cleanses and reduces acne breakouts",
-    "price": 100,
-    "image": "acne_face_wash.jpg"
+    "name": "Iron Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Used to treat or prevent iron deficiency anemia.",
+    "price": 250,
+    "image": "https://i.postimg.cc/L5F0DLLH/Iron-Supplement-Syrup.png"
   },
   {
     "id": 65,
-    "name": "Vitamin C Tablets",
+    "name": "Calcium Tablets",
     "category": "Vitamins & Supplements",
-    "description": "Boosts immunity and antioxidant support",
-    "price": 200,
-    "image": "vitamin_c_tablets.jpg"
+    "description": "Supports strong bones and teeth, prevents osteoporosis.",
+    "price": 400,
+    "image": "https://i.postimg.cc/CKZPVm4h/calcium-tablets.png"
   },
   {
     "id": 66,
-    "name": "Nasal Decongestant Spray",
-    "category": "Medical Conditions",
-    "description": "Relieves nasal congestion and sinus pressure",
-    "price": 10,
-    "image": "nasal_decongestant_spray.jpg"
+    "name": "Vitamin D Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Helps the body absorb calcium for healthy bones.",
+    "price": 350,
+    "image": "https://i.postimg.cc/GtzJDyjg/Vitamin-D3-Drops.png"
   },
   {
     "id": 67,
-    "name": "Fungal Powder",
-    "category": "Medical Conditions",
-    "description": "Treats and prevents fungal infections on skin",
-    "price": 10,
-    "image": "fungal_powder.jpg"
+    "name": "Vitamin B Complex",
+    "category": "Vitamins & Supplements",
+    "description": "Supports energy production and healthy nervous system.",
+    "price": 450,
+    "image": "https://i.postimg.cc/GtzJDyjg/Vitamin-D3-Drops.png"
   },
   {
     "id": 68,
-    "name": "Scar Reduction Cream",
-    "category": "Beauty & Skin Care",
-    "description": "Reduces visibility of old and new scars",
-    "price": 70,
-    "image": "scar_reduction_cream.jpg"
+    "name": "Magnesium Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Supports muscle and nerve function, prevents cramps.",
+    "price": 380,
+    "image": ""
   },
   {
     "id": 69,
-    "name": "Baby Lotion",
-    "category": "Personal Care & Hygiene",
-    "description": "Moisturizes and soothes baby’s sensitive skin",
-    "price": 100,
-    "image": "baby_lotion.jpg"
+    "name": "ORS with Flavour",
+    "category": "Medical Conditions",
+    "description": "Flavored oral rehydration salts to restore lost fluids.",
+    "price": 70,
+    "image": "https://i.postimg.cc/KzDs94NB/ORS-with-Flavour.png"
   },
   {
     "id": 70,
-    "name": "Rehydration Salts",
-    "category": "First Aid & Emergency",
-    "description": "Prevents and treats dehydration",
-    "price": 150,
-    "image": "rehydration_salts.jpg"
+    "name": "Electrolyte Powder",
+    "category": "Vitamins & Supplements",
+    "description": "Replenishes electrolytes lost during exercise or illness.",
+    "price": 300,
+    "image": "https://i.postimg.cc/5tc7b8K8/Electrolyte-Drink.png"
   },
   {
     "id": 71,
-    "name": "Tooth Pain Relief Gel",
-    "category": "Medical Conditions",
-    "description": "Provides fast relief from toothache",
-    "price": 250,
-    "image": "tooth_pain_gel.jpg"
+    "name": "Hand Sanitizer 50ml",
+    "category": "Personal Care & Hygiene",
+    "description": "Kills germs instantly without the need for water.",
+    "price": 120,
+    "image": "https://i.postimg.cc/L5hBzs0H/Hand-Sanitizer.png"
   },
   {
     "id": 72,
-    "name": "Itch Relief Lotion",
-    "category": "Medical Conditions",
-    "description": "Relieves itching and skin irritation",
-    "price": 5,
-    "image": "itch_relief_lotion.jpg"
+    "name": "Hand Sanitizer 100ml",
+    "category": "Personal Care & Hygiene",
+    "description": "Pocket-size sanitizer for on-the-go protection.",
+    "price": 200,
+    "image": "https://i.postimg.cc/L5hBzs0H/Hand-Sanitizer.png"
   },
   {
     "id": 73,
-    "name": "Breath Freshener Spray",
+    "name": "Hand Sanitizer 500ml",
     "category": "Personal Care & Hygiene",
-    "description": "Instantly freshens breath",
-    "price": 30,
-    "image": "breath_freshener_spray.jpg"
+    "description": "Large-size sanitizer for home or office use.",
+    "price": 600,
+    "image": "https://i.postimg.cc/L5hBzs0H/Hand-Sanitizer.png"
   },
   {
     "id": 74,
-    "name": "Burn Relief Gel",
+    "name": "Antiseptic Liquid 100ml",
     "category": "First Aid & Emergency",
-    "description": "Soothes minor burns and prevents infection",
-    "price": 100,
-    "image": "burn_relief_gel.jpg"
+    "description": "Used for wound cleaning and general disinfection.",
+    "price": 150,
+    "image": "https://i.postimg.cc/d1V8Y1F8/Antiseptic-Liquid.png"
   },
   {
     "id": 75,
-    "name": "Infant Pain Relief Drops",
-    "category": "Medical Conditions",
-    "description": "Provides relief from teething and fever in infants",
-    "price": 200,
-    "image": "infant_pain_relief_drops.jpg"
+    "name": "Antiseptic Liquid 500ml",
+    "category": "First Aid & Emergency",
+    "description": "Multi-purpose antiseptic for household disinfection.",
+    "price": 550,
+    "image": "https://i.postimg.cc/d1V8Y1F8/Antiseptic-Liquid.png"
   },
   {
     "id": 76,
-    "name": "Antiseptic Liquid",
+    "name": "Cotton Wool 50g",
     "category": "First Aid & Emergency",
-    "description": "Disinfects wounds and prevents infection",
-    "price": 250,
-    "image": "antiseptic_liquid.jpg"
+    "description": "Used for cleaning wounds and applying antiseptic.",
+    "price": 80,
+    "image": "https://i.postimg.cc/YC6V4GwY/Cotton-50-MG.png"
   },
   {
     "id": 77,
-    "name": "Joint Pain Balm",
-    "category": "Medical Conditions",
-    "description": "Relieves joint and muscle pain",
-    "price": 400,
-    "image": "joint_pain_balm.jpg"
+    "name": "Cotton Wool 100g",
+    "category": "First Aid & Emergency",
+    "description": "Soft cotton for wound care and cleaning.",
+    "price": 150,
+    "image": "https://i.postimg.cc/YC6V4GwY/Cotton-50-MG.png"
   },
   {
     "id": 78,
-    "name": "Multivitamin Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Supports daily vitamin intake",
-    "price": 20,
-    "image": "multivitamin_syrup.jpg"
+    "name": "Cotton Wool 200g",
+    "category": "First Aid & Emergency",
+    "description": "Absorbent cotton for medical and household use.",
+    "price": 250,
+    "image": "https://i.postimg.cc/YC6V4GwY/Cotton-50-MG.png"
   },
   {
     "id": 79,
-    "name": "Acne Treatment Gel",
-    "category": "Beauty & Skin Care",
-    "description": "Reduces acne and skin inflammation",
+    "name": "Plaster Roll Small",
+    "category": "First Aid & Emergency",
+    "description": "Used to secure dressings or cover minor cuts.",
     "price": 100,
-    "image": "acne_treatment_gel.jpg"
+    "image": "https://i.postimg.cc/W1rcPGwP/Plaster-Roll-Small.png"
   },
   {
     "id": 80,
-    "name": "Skin Whitening Cream",
-    "category": "Beauty & Skin Care",
-    "description": "Lightens skin and removes blemishes",
-    "price": 400,
-    "image": "skin_whitening_cream.jpg"
+    "name": "Plaster Roll Large",
+    "category": "First Aid & Emergency",
+    "description": "Wide adhesive roll for wound dressing.",
+    "price": 180,
+    "image": "https://i.postimg.cc/W1rcPGwP/Plaster-Roll-Small.png"
   },
   {
     "id": 81,
-    "name": "Kids Multivitamin Drops",
-    "category": "Vitamins & Supplements",
-    "description": "Enhances growth and immunity in children",
-    "price": 40,
-    "image": "kids_multivitamin_drops.jpg"
+    "name": "Bandage Crepe Small",
+    "category": "First Aid & Emergency",
+    "description": "Elastic bandage for sprains and support.",
+    "price": 120,
+    "image": "https://i.postimg.cc/W3sdZb1h/Bandage-Crepe.png"
   },
   {
     "id": 82,
-    "name": "Cold Sore Cream",
-    "category": "Medical Conditions",
-    "description": "Treats cold sores and blisters",
-    "price": 850,
-    "image": "cold_sore_cream.jpg"
+    "name": "Bandage Crepe Medium",
+    "category": "First Aid & Emergency",
+    "description": "Medium-size elastic bandage for injuries.",
+    "price": 150,
+    "image": "https://i.postimg.cc/W3sdZb1h/Bandage-Crepe.png"
   },
   {
     "id": 83,
-    "name": "Diaper Rash Cream",
-    "category": "Personal Care & Hygiene",
-    "description": "Protects baby's skin from diaper rash",
-    "price": 40,
-    "image": "diaper_rash_cream.jpg"
+    "name": "Bandage Crepe Large",
+    "category": "First Aid & Emergency",
+    "description": "Provides compression and support for large injuries.",
+    "price": 200,
+    "image": "https://i.postimg.cc/W3sdZb1h/Bandage-Crepe.png"
   },
   {
     "id": 84,
-    "name": "Eye Drops for Redness",
-    "category": "Medical Conditions",
-    "description": "Relieves eye redness and irritation",
-    "price": 12,
-    "image": "eye_drops_redness.jpg"
+    "name": "Detox Tea",
+    "category": "Vitamins & Supplements",
+    "description": "Herbal tea that supports digestion and cleansing.",
+    "price": 500,
+    "image": "https://i.postimg.cc/Fz3k1FSC/Detox-Tea.png"
   },
   {
     "id": 85,
-    "name": "Eczema Relief Cream",
-    "category": "Medical Conditions",
-    "description": "Soothes eczema and dry skin",
-    "price": 100,
-    "image": "eczema_cream.jpg"
+    "name": "Green Tea",
+    "category": "Vitamins & Supplements",
+    "description": "Rich in antioxidants, boosts metabolism and energy.",
+    "price": 400,
+    "image": "https://i.postimg.cc/zGXw2WKJ/Green-Tea.png"
   },
   {
     "id": 86,
-    "name": "Blood Pressure Monitor",
-    "category": "Medical Devices",
-    "description": "Monitors systolic and diastolic pressure",
-    "price": 250,
-    "image": "bp_monitor.jpg"
+    "name": "Slimming Tea",
+    "category": "Vitamins & Supplements",
+    "description": "Herbal tea that supports weight management.",
+    "price": 600,
+    "image": "https://i.postimg.cc/KcCvHyT4/Slimming-Tea.png"
   },
   {
     "id": 87,
-    "name": "Ear Pain Relief Drops",
-    "category": "Medical Conditions",
-    "description": "Relieves ear pain and infections",
-    "price": 250,
-    "image": "ear_pain_drops.jpg"
+    "name": "Herbal Tea",
+    "category": "Vitamins & Supplements",
+    "description": "Natural tea blend for relaxation and wellness.",
+    "price": 350,
+    "image": "https://i.postimg.cc/KcCvHyT4/Slimming-Tea.png"
   },
   {
     "id": 88,
-    "name": "Liver Support Capsules",
-    "category": "Vitamins & Supplements",
-    "description": "Supports healthy liver function",
-    "price": 500,
-    "image": "liver_support_capsules.jpg"
+    "name": "Cough Syrup Adult",
+    "category": "Medical Conditions",
+    "description": "Relieves cough and soothes irritated throat.",
+    "price": 450,
+    "image": "https://i.postimg.cc/BQxs7Psw/Cough-Syrup-for-Adults.png"
   },
   {
     "id": 89,
-    "name": "Sleep Aid Tablets",
+    "name": "Cough Syrup Kids",
     "category": "Medical Conditions",
-    "description": "Helps relieve insomnia and anxiety",
-    "price": 150,
-    "image": "sleep_aid_tablets.jpg"
+    "description": "Gentle cough relief for children.",
+    "price": 400,
+    "image": "https://i.postimg.cc/h4mqhQJP/Cough-Syrup-Mint-60-ML.png"
   },
   {
     "id": 90,
-    "name": "Sunscreen Lotion",
-    "category": "Beauty & Skin Care",
-    "description": "Protects skin from harmful UV rays",
-    "price": 20,
-    "image": "sunscreen_lotion.jpg"
+    "name": "Paracetamol Tablets 500mg",
+    "category": "Medical Conditions",
+    "description": "Pain reliever and fever reducer.",
+    "price": 150,
+    "image": "https://i.postimg.cc/5NfbQCkR/paracetamol.jpg"
   },
   {
     "id": 91,
-    "name": "Nasal Spray Decongestant",
+    "name": "Ibuprofen Tablets 400mg",
     "category": "Medical Conditions",
-    "description": "Clears nasal congestion",
-    "price": 100,
-    "image": "nasal_spray.jpg"
+    "description": "Reduces pain, inflammation, and fever.",
+    "price": 200,
+    "image": "https://i.postimg.cc/RCLzm0VQ/diclofenac.jpg"
   },
   {
     "id": 92,
-    "name": "Mouth Ulcer Gel",
+    "name": "Antacid Tablets",
     "category": "Medical Conditions",
-    "description": "Relieves mouth ulcers and irritation",
-    "price": 250,
-    "image": "mouth_ulcer_gel.jpg"
+    "description": "Relieves heartburn and indigestion.",
+    "price": 180,
+    "image": "https://i.postimg.cc/0Qpc1vQx/Antacid-Sachets.png"
   },
   {
     "id": 93,
-    "name": "Anti-Aging Cream",
-    "category": "Beauty & Skin Care",
-    "description": "Reduces wrinkles and signs of aging",
-    "price": 1500,
-    "image": "anti_aging_cream.jpg"
+    "name": "Antacid Syrup",
+    "category": "Medical Conditions",
+    "description": "Liquid antacid to relieve acid reflux.",
+    "price": 250,
+    "image": "https://i.postimg.cc/m2dVs8bc/Antacid-Suspension.png"
   },
   {
     "id": 94,
-    "name": "Motion Sickness Tablets",
+    "name": "Antihistamine Syrup",
     "category": "Medical Conditions",
-    "description": "Prevents nausea and dizziness",
-    "price": 10,
-    "image": "motion_sickness_tablets.jpg"
+    "description": "Relieves allergy symptoms such as runny nose and itching.",
+    "price": 300,
+    "image": ""
   },
   {
     "id": 95,
-    "name": "Allergy Relief Syrup",
+    "name": "Antihistamine Tablets",
     "category": "Medical Conditions",
-    "description": "Treats allergic reactions and hay fever",
-    "price": 250,
-    "image": "allergy_syrup.jpg"
+    "description": "Used to treat allergy reactions and hay fever.",
+    "price": 280,
+    "image": "https://i.postimg.cc/0Qq0f4C4/Antihistamine-Tablets.png"
   },
   {
     "id": 96,
-    "name": "Calamine Lotion",
-    "category": "Beauty & Skin Care",
-    "description": "Soothes skin irritation and itching",
-    "price": 150,
-    "image": "calamine_lotion.jpg"
+    "name": "ORS Sachet (Flavored)",
+    "category": "Medical Conditions",
+    "description": "Flavored ORS to restore body fluids and electrolytes.",
+    "price": 35,
+    "image": "https://i.postimg.cc/mgsg05N4/ors-sachet.png"
   },
   {
     "id": 97,
-    "name": "Toothache Relief Gel",
+    "name": "Cough Lozenges",
     "category": "Medical Conditions",
-    "description": "Relieves tooth pain and inflammation",
-    "price": 10,
-    "image": "toothache_gel.jpg"
+    "description": "Soothes throat irritation and reduces cough.",
+    "price": 120,
+    "image": "https://i.postimg.cc/K8f1VHFV/Cough-Lozenges.png"
   },
   {
     "id": 98,
-    "name": "Antacid Suspension",
+    "name": "Throat Spray",
     "category": "Medical Conditions",
-    "description": "Treats heartburn and acid reflux",
-    "price": 60,
-    "image": "antacid_suspension.jpg"
+    "description": "Provides quick relief from sore throat pain.",
+    "price": 300,
+    "image": "https://i.postimg.cc/mkVxRCDb/Throat-Spray.png"
   },
   {
     "id": 99,
-    "name": "Cough Syrup for Adults",
+    "name": "Herbal Cough Remedy",
     "category": "Medical Conditions",
-    "description": "Relieves cough and throat irritation",
-    "price": 100,
-    "image": "adult_cough_syrup.jpg"
+    "description": "Natural herbal formula to ease cough and throat irritation.",
+    "price": 350,
+    "image": "https://i.postimg.cc/FRQwLDkr/Herbal-Cough-Remedy.png"
   },
   {
     "id": 100,
-    "name": "Antifungal Cream",
-    "category": "Medical Conditions",
-    "description": "Treats fungal infections on skin",
-    "price": 25,
-    "image": "antifungal_cream.jpg"
+    "name": "Nasal Spray",
+    "category": "Medical Devices",
+    "description": "Clears nasal congestion and relieves sinus pressure.",
+    "price": 400,
+    "image": "https://i.postimg.cc/W1JW29wL/nasal-spray.jpg"
   },
   {
     "id": 101,
-    "name": "Pain Relief Spray",
+    "name": "Rhinathiol Promethazine Syrup 125ml",
     "category": "Medical Conditions",
-    "description": "Instant pain relief for muscles",
-    "price": 10,
-    "image": "pain_spray.jpg"
+    "description": "Used for cough relief with associated allergy symptoms.",
+    "price": 650,
+    "image": "https://i.postimg.cc/XYLg8LPN/Rhinathiol-Promethazine-Syr.png"
   },
   {
     "id": 102,
-    "name": "Antiseptic Wipes",
-    "category": "First Aid & Emergency",
-    "description": "Kills germs on skin or surfaces",
-    "price": 15,
-    "image": "antiseptic_wipes.jpg"
+    "name": "Tuxed Syrup 100ml",
+    "category": "Medical Conditions",
+    "description": "Used as an expectorant to relieve cough and congestion.",
+    "price": 480,
+    "image": "https://i.postimg.cc/0j1mxK4H/Tuxed-Syrup.png"
   },
   {
     "id": 103,
-    "name": "Wound Healing Ointment",
-    "category": "First Aid & Emergency",
-    "description": "Speeds up healing of minor cuts",
-    "price": 20,
-    "image": "wound_ointment.jpg"
+    "name": "Ventolin Inhaler 200 Dose",
+    "category": "Medical Devices",
+    "description": "Used for relief and prevention of asthma and bronchospasm.",
+    "price": 1200,
+    "image": "https://i.postimg.cc/mZ31CDJB/Inhaler.png"
   },
   {
     "id": 104,
-    "name": "Gas Relief Capsules",
+    "name": "Bisolvon Elixir 100ml",
     "category": "Medical Conditions",
-    "description": "Relieves bloating and gas",
-    "price": 100,
-    "image": "gas_relief_capsules.jpg"
+    "description": "Used to relieve chest congestion by thinning mucus.",
+    "price": 520,
+    "image": "https://i.postimg.cc/MZtKzjgM/Bisolvon-Elixir.png"
   },
   {
     "id": 105,
-    "name": "Vitamin D3 Drops",
-    "category": "Vitamins & Supplements",
-    "description": "Supports bone health and immunity",
-    "price": 250,
-    "image": "vitamin_d3_drops.jpg"
+    "name": "Benylin 4 Flu Syrup 100ml",
+    "category": "Medical Conditions",
+    "description": "Relieves flu symptoms including cough, congestion, and fever.",
+    "price": 600,
+    "image": "https://i.postimg.cc/T3gzYzh7/Benylin-4-Flu-Syrup.png"
   },
   {
     "id": 106,
-    "name": "Blood Glucose Test Strips",
-    "category": "Medical Devices",
-    "description": "Used for monitoring blood sugar levels",
-    "price": 250,
-    "image": "glucose_test_strips.jpg"
+    "name": "Panadol Cold & Flu Tablets 12s",
+    "category": "Medical Conditions",
+    "description": "Provides relief from cold and flu symptoms such as headache, fever, and nasal congestion.",
+    "price": 450,
+    "image": "https://i.postimg.cc/ydg5t2qy/Panadol-Cold-Flu-Tablets.png"
   },
   {
     "id": 107,
-    "name": "Eye Lubricant Drops",
+    "name": "Cetirizine Tablets 10s",
     "category": "Medical Conditions",
-    "description": "Relieves dry eyes and irritation",
-    "price": 50,
-    "image": "eye_drops.jpg"
+    "description": "Used to relieve allergy symptoms such as runny nose, sneezing, and itching.",
+    "price": 300,
+    "image": "https://i.postimg.cc/Bn7m3NBY/Cetirizine-Tablets.png"
   },
   {
     "id": 108,
-    "name": "Throat Lozenges",
+    "name": "Piriton Syrup 100ml",
     "category": "Medical Conditions",
-    "description": "Soothes sore throat and coughing",
-    "price": 150,
-    "image": "throat_lozenges.jpg"
+    "description": "Used for allergy relief including hay fever, itching, and skin rashes.",
+    "price": 480,
+    "image": "https://i.postimg.cc/4xH9K5TF/Piriton-Syrup.png"
   },
   {
     "id": 109,
-    "name": "Burn Relief Gel",
-    "category": "First Aid & Emergency",
-    "description": "Soothes minor burns and skin damage",
-    "price": 5,
-    "image": "burn_gel.jpg"
+    "name": "Clarityne Tablets 10s",
+    "category": "Medical Conditions",
+    "description": "Non-drowsy antihistamine used for allergies and hay fever.",
+    "price": 800,
+    "image": "https://i.postimg.cc/yYH1hy9b/Clarityne-Tablets.png"
   },
   {
     "id": 110,
-    "name": "Anti-Diarrheal Tablets",
+    "name": "Actifed Syrup 100ml",
     "category": "Medical Conditions",
-    "description": "Controls diarrhea and cramps",
-    "price": 10,
-    "image": "anti_diarrheal.jpg"
+    "description": "Used for nasal congestion and allergy relief.",
+    "price": 500,
+    "image": "https://i.postimg.cc/6QkJWBfm/Actifed-Syrup.png"
   },
   {
     "id": 111,
-    "name": "Antiseptic Cream",
-    "category": "First Aid & Emergency",
-    "description": "Prevents infection in minor wounds",
-    "price": 2,
-    "image": "antiseptic_cream.jpg"
+    "name": "Amoxicillin Capsules 250mg 28s",
+    "category": "Medical Conditions",
+    "description": "Antibiotic used to treat bacterial infections.",
+    "price": 600,
+    "image": "https://i.postimg.cc/RZ2bfXJ3/Amoxicillin-Capsules.png"
   },
   {
     "id": 112,
-    "name": "Menthol Chest Rub",
+    "name": "Augmentin Tablets 625mg 14s",
     "category": "Medical Conditions",
-    "description": "Relieves chest congestion",
-    "price": 70,
-    "image": "chest_rub.jpg"
+    "description": "Broad-spectrum antibiotic for bacterial infections.",
+    "price": 1450,
+    "image": "https://i.postimg.cc/MHrYwpyc/Augmentin-Tablets.png"
   },
   {
     "id": 113,
-    "name": "Anti-Itch Lotion",
-    "category": "Beauty & Skin Care",
-    "description": "Soothes itching and skin rash",
-    "price": 150,
-    "image": "anti_itch_lotion.jpg"
+    "name": "Azithromycin Tablets 500mg 5s",
+    "category": "Medical Conditions",
+    "description": "Antibiotic used to treat respiratory and skin infections.",
+    "price": 950,
+    "image": "https://i.postimg.cc/DzydSGBW/Azithromycin-Tablets.png"
   },
   {
     "id": 114,
-    "name": "Cold & Flu Tablets",
+    "name": "Ciprofloxacin Tablets 500mg 10s",
     "category": "Medical Conditions",
-    "description": "Relieves symptoms of cold and flu",
-    "price": 150,
-    "image": "cold_flu_tablets.jpg"
+    "description": "Antibiotic used for urinary and respiratory tract infections.",
+    "price": 800,
+    "image": "https://i.postimg.cc/pLPKS8N0/Ciprofloxacin-Tablets.png"
   },
   {
     "id": 115,
-    "name": "Hand Sanitizer 15GM",
-    "category": "Personal Care & Hygiene",
-    "description": "Kills 99.9% of germs without water",
-    "price": 150,
-    "image": "hand_sanitizer.jpg"
+    "name": "Metronidazole Tablets 400mg 15s",
+    "category": "Medical Conditions",
+    "description": "Used to treat bacterial and parasitic infections.",
+    "price": 550,
+    "image": "https://i.postimg.cc/Zq8t51sY/Metronidazole-Tablets-400mg.png"
   },
   {
     "id": 116,
-    "name": "Lotion Moisturizer 100ML",
-    "category": "Beauty & Skin Care",
-    "description": "Moisturizes and softens skin",
-    "price": 200,
-    "image": "moisturizer_lotion.jpg"
+    "name": "Doxycycline Capsules 100mg 10s",
+    "category": "Medical Conditions",
+    "description": "Antibiotic used for bacterial infections and malaria prevention.",
+    "price": 600,
+    "image": "https://i.postimg.cc/m2znrvtx/Doxycycline-Capsules.png"
   },
   {
     "id": 117,
-    "name": "Thermometer Digital",
-    "category": "Medical Devices",
-    "description": "Measures body temperature",
-    "price": 5,
-    "image": "digital_thermometer.jpg"
+    "name": "Erythromycin Tablets 250mg 20s",
+    "category": "Medical Conditions",
+    "description": "Antibiotic used for respiratory and skin infections.",
+    "price": 700,
+    "image": "https://i.postimg.cc/mk08Mrhv/Erythromycin-Tablets.png"
   },
   {
     "id": 118,
-    "name": "Oral Rehydration Salts",
+    "name": "Levofloxacin Tablets 500mg 7s",
     "category": "Medical Conditions",
-    "description": "Prevents dehydration from diarrhea",
-    "price": 30,
-    "image": "oral_rehydration_salts.jpg"
+    "description": "Antibiotic used for respiratory and urinary infections.",
+    "price": 1100,
+    "image": "https://i.postimg.cc/dt2xd8mn/Levofloxacin-Tablets.png"
   },
   {
     "id": 119,
-    "name": "Cough Syrup for Children",
+    "name": "Clotrimazole Cream 20g",
     "category": "Medical Conditions",
-    "description": "Relieves cough in children",
-    "price": 100,
-    "image": "children_cough_syrup.jpg"
+    "description": "Antifungal cream used to treat athlete’s foot, ringworm, and yeast infections.",
+    "price": 350,
+    "image": "https://i.postimg.cc/13RJqbz5/Clotrine.png"
   },
   {
     "id": 120,
-    "name": "Multivitamin Syrup",
-    "category": "Vitamins & Supplements",
-    "description": "Supports overall health and immunity",
-    "price": 100,
-    "image": "multivitamin_syrup.jpg"
+    "name": "Canesten Vaginal Tablet 500mg",
+    "category": "Medical Conditions",
+    "description": "Antifungal treatment for vaginal yeast infections.",
+    "price": 900,
+    "image": "https://i.postimg.cc/7YZ2M4Sc/Canesten-Vaginal-Tablet.png"
   },
   {
     "id": 121,
-    "name": "Cough Syrup Adult 100ML",
+    "name": "Miconazole Oral Gel 15g",
     "category": "Medical Conditions",
-    "description": "Relieves dry and wet cough",
-    "price": 250,
-    "image": "adult_cough_syrup.jpg"
+    "description": "Used to treat oral thrush and fungal infections in the mouth.",
+    "price": 450,
+    "image": "https://i.postimg.cc/cJBxbgSc/Miconazole-Oral-Gel.png"
   },
   {
     "id": 122,
-    "name": "Sunscreen Lotion 50ML",
-    "category": "Beauty & Skin Care",
-    "description": "Protects skin from UV rays",
-    "price": 50,
-    "image": "sunscreen_lotion.jpg"
+    "name": "Nystatin Oral Suspension 100ml",
+    "category": "Medical Conditions",
+    "description": "Used to treat fungal infections in the mouth and throat.",
+    "price": 600,
+    "image": "https://i.postimg.cc/d1SKbGSG/Nystatin-Oral-Suspension.png"
   },
   {
     "id": 123,
-    "name": "Pain Relief Balm",
+    "name": "Fluconazole Capsules 150mg 1s",
     "category": "Medical Conditions",
-    "description": "Provides fast relief from muscular pain",
-    "price": 200,
-    "image": "pain_balm.jpg"
+    "description": "Antifungal capsule used to treat vaginal yeast infections.",
+    "price": 400,
+    "image": "https://i.postimg.cc/TYbXsLjW/Fluconazole-Capsules.png"
   },
   {
     "id": 124,
-    "name": "First Aid Kit Small",
-    "category": "First Aid & Emergency",
-    "description": "Includes essential items for minor injuries",
-    "price": 400,
-    "image": "first_aid_kit.jpg"
+    "name": "Terbinafine Cream 15g",
+    "category": "Medical Conditions",
+    "description": "Antifungal cream used for athlete’s foot and fungal skin infections.",
+    "price": 500,
+    "image": "https://i.postimg.cc/kXN74RVP/Terbinafine-Cream.png"
   },
   {
     "id": 125,
-    "name": "Cough Syrup Menthol 100ML",
-    "category": "Medical Conditions",
-    "description": "Clears throat and reduces cough",
-    "price": 250,
-    "image": "menthol_cough_syrup.jpg"
+    "name": "Ketoconazole Shampoo 100ml",
+    "category": "Personal Care & Hygiene",
+    "description": "Used to treat dandruff and fungal scalp conditions.",
+    "price": 850,
+    "image": "https://i.postimg.cc/tgBdWzT0/Ketoconazole-Shampoo.png"
   },
   {
     "id": 126,
-    "name": "Antacid Suspension 100ML",
+    "name": "Hydrocortisone Cream 15g",
     "category": "Medical Conditions",
-    "description": "Relieves heartburn and indigestion",
-    "price": 400,
-    "image": "antacid_syrup.jpg"
+    "description": "Relieves skin inflammation, itching, and rashes.",
+    "price": 300,
+    "image": "https://i.postimg.cc/Pr6tGpPX/Hydrocortisone-Cream-15g.png"
   },
   {
     "id": 127,
-    "name": "Wound Healing Spray",
-    "category": "First Aid & Emergency",
-    "description": "Disinfects and promotes wound healing",
-    "price": 10,
-    "image": "wound_spray.jpg"
+    "name": "Betamethasone Cream 15g",
+    "category": "Medical Conditions",
+    "description": "Strong corticosteroid cream used for skin inflammation.",
+    "price": 350,
+    "image": "https://i.postimg.cc/05W3PpdB/Betamethasone-Cream-15g.png"
   },
   {
     "id": 128,
-    "name": "Allergy Tablets",
-    "category": "Medical Conditions",
-    "description": "Relieves allergic reactions",
-    "price": 10,
-    "image": "allergy_tablets.jpg"
+    "name": "Calamine Lotion 100ml",
+    "category": "Personal Care & Hygiene",
+    "description": "Relieves itching and skin irritation from insect bites and rashes.",
+    "price": 250,
+    "image": "https://i.postimg.cc/4d4LTdKG/calamine-lotion.png"
   },
   {
     "id": 129,
-    "name": "Antifungal Cream",
-    "category": "Beauty & Skin Care",
-    "description": "Treats fungal skin infections",
-    "price": 42,
-    "image": "antifungal_cream.jpg"
+    "name": "Sudocrem Antiseptic Healing Cream 60g",
+    "category": "Medical Conditions",
+    "description": "Used for diaper rash, eczema, and minor skin conditions.",
+    "price": 650,
+    "image": "https://i.postimg.cc/9Fwx2sfD/Antiseptic-Lotion.png"
   },
   {
     "id": 130,
-    "name": "Paracetamol Suspension 100ML",
-    "category": "Medical Conditions",
-    "description": "Pain and fever relief for children",
-    "price": 400,
-    "image": "paracetamol_syrup.jpg"
+    "name": "Bepanthen Nappy Care Ointment 100g",
+    "category": "Personal Care & Hygiene",
+    "description": "Protects and heals diaper rash in babies.",
+    "price": 950,
+    "image": "https://i.postimg.cc/k5Jz7wZL/Bepanthen-Nappy-Care-Ointment.png"
   },
   {
     "id": 131,
-    "name": "Cough Syrup Mint 60ML",
+    "name": "Zinc Oxide Cream 50g",
     "category": "Medical Conditions",
-    "description": "Relieves chest congestion and cough",
-    "price": 100,
-    "image": "mint_cough_syrup.jpg"
+    "description": "Protects skin and treats rashes and minor burns.",
+    "price": 400,
+    "image": "https://i.postimg.cc/sfQ8fM6f/zinc-syrup.png"
   },
   {
     "id": 132,
-    "name": "Zinc Supplement 9GM",
-    "category": "Vitamins & Supplements",
-    "description": "Boosts immune system",
-    "price": 100,
-    "image": "zinc_supplement.jpg"
+    "name": "Vaseline Petroleum Jelly 100g",
+    "category": "Beauty & Skin Care",
+    "description": "Moisturizes and protects dry skin and minor wounds.",
+    "price": 200,
+    "image": "https://i.postimg.cc/q7vbPq6T/Vaseline-Petroleum-Jelly.png"
   },
   {
     "id": 133,
-    "name": "Antiseptic Mouthwash 60ML",
-    "category": "Personal Care & Hygiene",
-    "description": "Kills bacteria and freshens breath",
-    "price": 100,
-    "image": "mouthwash.jpg"
+    "name": "Nivea Soft Cream 200ml",
+    "category": "Beauty & Skin Care",
+    "description": "Moisturizing cream for face, body, and hands.",
+    "price": 550,
+    "image": "https://i.postimg.cc/bwDd3H3c/Nivea-Soft-Cream.png"
   },
   {
     "id": 134,
-    "name": "Vitamin C Tablets 30GM",
-    "category": "Vitamins & Supplements",
-    "description": "Supports immune health",
-    "price": 250,
-    "image": "vitamin_c.jpg"
+    "name": "Eucerin Lotion 250ml",
+    "category": "Beauty & Skin Care",
+    "description": "Moisturizing lotion for dry and sensitive skin.",
+    "price": 1200,
+    "image": "https://i.postimg.cc/3rtRhbqQ/Eucerin-Lotion.png"
   },
   {
     "id": 135,
-    "name": "Skin Moisturizer 20GM",
+    "name": "Cetaphil Moisturizing Cream 100g",
     "category": "Beauty & Skin Care",
-    "description": "Hydrates dry and irritated skin",
-    "price": 100,
-    "image": "skin_moisturizer.jpg"
+    "description": "Hydrates dry and sensitive skin.",
+    "price": 1000,
+    "image": "https://i.postimg.cc/KzZGSnrY/Moisturizing-Lotion.png"
   },
   {
     "id": 136,
-    "name": "Allergy Syrup 1ML",
-    "category": "Medical Conditions",
-    "description": "Relieves symptoms of allergies",
-    "price": 200,
-    "image": "allergy_syrup.jpg"
+    "name": "Neutrogena Hydro Boost Water Gel 50ml",
+    "category": "Beauty & Skin Care",
+    "description": "Hydrating gel for dry skin, helps retain moisture.",
+    "price": 1500,
+    "image": "https://i.postimg.cc/VvtmXDzD/Neutrogena-Hydro-Boost-Water-Gel.png"
   },
   {
     "id": 137,
-    "name": "Pain Relief Tablets",
-    "category": "Medical Conditions",
-    "description": "Reduces pain and inflammation",
-    "price": 150,
-    "image": "pain_tablets.jpg"
+    "name": "Aveeno Daily Moisturizing Lotion 354ml",
+    "category": "Beauty & Skin Care",
+    "description": "Moisturizer for dry skin, provides long-lasting hydration.",
+    "price": 1600,
+    "image": "https://i.postimg.cc/KzZGSnrY/Moisturizing-Lotion.png"
   },
   {
     "id": 138,
-    "name": "Antiseptic Cream 50GM",
-    "category": "First Aid & Emergency",
-    "description": "Prevents infection in minor cuts and burns",
-    "price": 50,
-    "image": "antiseptic_cream.jpg"
+    "name": "CeraVe Moisturizing Cream 454g",
+    "category": "Beauty & Skin Care",
+    "description": "Hydrating cream with ceramides for dry skin.",
+    "price": 2300,
+    "image": "https://i.postimg.cc/KzZGSnrY/Moisturizing-Lotion.png"
   },
   {
     "id": 139,
-    "name": "Fever Syrup 10ML",
-    "category": "Medical Conditions",
-    "description": "Reduces fever and discomfort",
-    "price": 150,
-    "image": "fever_syrup.jpg"
+    "name": "Garnier Micellar Water 400ml",
+    "category": "Beauty & Skin Care",
+    "description": "Used for gentle cleansing and makeup removal.",
+    "price": 950,
+    "image": "https://i.postimg.cc/J0MPQhLv/Garnier-Micellar-Water.png"
   },
   {
     "id": 140,
-    "name": "Antibiotic Ointment 25GM",
-    "category": "Medical Conditions",
-    "description": "Treats bacterial skin infections",
-    "price": 200,
-    "image": "antibiotic_ointment.jpg"
+    "name": "Simple Cleansing Facial Wipes 25s",
+    "category": "Beauty & Skin Care",
+    "description": "Removes dirt, oil, and makeup from skin.",
+    "price": 600,
+    "image": "https://i.postimg.cc/k4nb1R2Q/Simple-Cleansing-Facial-Wipes.png"
   },
   {
     "id": 141,
-    "name": "Oral Rehydration Salts 50ML",
-    "category": "Medical Conditions",
-    "description": "Replenishes fluids and electrolytes",
-    "price": 150,
-    "image": "ors_solution.jpg"
+    "name": "Clean & Clear Foaming Face Wash 100ml",
+    "category": "Beauty & Skin Care",
+    "description": "Cleanses skin and helps prevent acne.",
+    "price": 400,
+    "image": "https://i.postimg.cc/gJSngSFp/Clean-Clear-Foaming-Face-Wash.png"
   },
   {
     "id": 142,
-    "name": "Painkiller Syringe 1ML",
-    "category": "Medical Conditions",
-    "description": "Instant pain relief injection",
-    "price": 200,
-    "image": "painkiller_injection.jpg"
+    "name": "Himalaya Neem Face Wash 150ml",
+    "category": "Beauty & Skin Care",
+    "description": "Helps fight pimples and cleanse oily skin.",
+    "price": 500,
+    "image": "https://i.postimg.cc/dtdG0FcT/Himalaya-Neem-Face-Wash.png"
   },
   {
     "id": 143,
-    "name": "Energy Supplement 30GM",
-    "category": "Vitamins & Supplements",
-    "description": "Boosts energy levels",
-    "price": 250,
-    "image": "energy_supplement.jpg"
+    "name": "Olay Regenerist Cream 50g",
+    "category": "Beauty & Skin Care",
+    "description": "Anti-aging cream that hydrates and firms skin.",
+    "price": 2500,
+    "image": "https://i.postimg.cc/7Lrqr6wY/Olay-Regenerist-Cream.png"
   },
   {
     "id": 144,
-    "name": "Eye Drop Solution 2.5GM",
-    "category": "Medical Conditions",
-    "description": "Relieves eye redness and irritation",
-    "price": 200,
-    "image": "eye_drops.jpg"
+    "name": "L’Oreal Revitalift Serum 30ml",
+    "category": "Beauty & Skin Care",
+    "description": "Anti-aging serum that reduces wrinkles and firms skin.",
+    "price": 2800,
+    "image": "https://i.postimg.cc/tTkjQN49/L-Oreal-Revitalift-Seru.png"
   },
   {
     "id": 145,
-    "name": "Cough Drops 250MG",
-    "category": "Medical Conditions",
-    "description": "Soothes sore throat and reduces cough",
-    "price": 250,
-    "image": "cough_drops.jpg"
+    "name": "The Ordinary Niacinamide 10% + Zinc 30ml",
+    "category": "Beauty & Skin Care",
+    "description": "Serum that helps reduce blemishes and balance oil.",
+    "price": 2200,
+    "image": "https://i.postimg.cc/5tNc5FmG/The-Ordinary-Niacinamide-10-Zinc-30ml.png"
   },
   {
     "id": 146,
-    "name": "Children's Cough Syrup 60ML",
-    "category": "Medical Conditions",
-    "description": "Cough relief for children",
-    "price": 100,
-    "image": "child_cough_syrup.jpg"
+    "name": "La Roche-Posay Effaclar Duo+ 40ml",
+    "category": "Beauty & Skin Care",
+    "description": "Skincare for acne-prone skin, reduces spots and unclogs pores.",
+    "price": 3200,
+    "image": "https://i.postimg.cc/CLyWP2Nb/La-Roche-Posay-Effaclar-Duo-40ml.png"  
   },
   {
     "id": 147,
-    "name": "Stomach Pain Relief 10ML",
-    "category": "Medical Conditions",
-    "description": "Soothes stomach cramps",
-    "price": 10,
-    "image": "stomach_pain_relief.jpg"
+    "name": "Bioderma Sensibio H2O 250ml",
+    "category": "Beauty & Skin Care",
+    "description": "Micellar water for cleansing sensitive skin.",
+    "price": 1800,
+    "image": "https://i.postimg.cc/nVQY5Brx/Bioderma-Sensibio-H2-O.png"
   },
   {
     "id": 148,
-    "name": "Electrolyte Drink 20ML",
-    "category": "Medical Conditions",
-    "description": "Prevents dehydration",
-    "price": 20,
-    "image": "electrolyte_drink.jpg"
+    "name": "Vichy Mineral 89 Serum 50ml",
+    "category": "Beauty & Skin Care",
+    "description": "Hydrating serum that strengthens skin barrier.",
+    "price": 3500,
+    "image": "https://i.postimg.cc/MGRFqNK6/Vichy-Mineral-89-Serum.png"
   },
   {
     "id": 149,
-    "name": "Wound Antiseptic Spray 10ML",
-    "category": "First Aid & Emergency",
-    "description": "Prevents wound infection",
-    "price": 10,
-    "image": "wound_spray.jpg"
+    "name": "E45 Cream 125g",
+    "category": "Beauty & Skin Care",
+    "description": "Soothing cream for dry and itchy skin.",
+    "price": 900,
+    "image": "https://i.postimg.cc/43CckFSQ/E45-Cream.png"
   },
   {
     "id": 150,
-    "name": "Multivitamin Syrup 200ML",
-    "category": "Vitamins & Supplements",
-    "description": "Improves overall health and immunity",
-    "price": 200,
-    "image": "multivitamin_syrup.jpg"
+    "name": "Palmers Cocoa Butter Lotion 400ml",
+    "category": "Beauty & Skin Care",
+    "description": "Moisturizes and softens dry skin with cocoa butter.",
+    "price": 1200,
+    "image": "https://i.postimg.cc/DzYtwL16/Palmers-Cocoa-Butter-Lotion.png"
   },
   {
     "id": 151,
-    "name": "Pain Relief Gel 5ML",
+    "name": "Ciprofloxacin 500mg 10’s",
     "category": "Medical Conditions",
-    "description": "Topical gel for pain relief",
-    "price": 100,
-    "image": "pain_relief_gel.jpg"
+    "description": "Antibiotic used to treat bacterial infections.",
+    "price": 700,
+    "image": "https://i.postimg.cc/QdYhVbQC/Ciprofloxacin-Tablets.png"
   },
   {
     "id": 152,
-    "name": "Rehydration Syrup 60ML",
+    "name": "Clarithromycin 500mg 14’s",
     "category": "Medical Conditions",
-    "description": "Rehydrates and restores energy",
-    "price": 100,
-    "image": "rehydration_syrup.jpg"
+    "description": "Antibiotic for respiratory tract, skin, and other infections.",
+    "price": 1350,
+    "image": "https://i.postimg.cc/t44nLBR4/Clarithromycin.png"
   },
   {
     "id": 153,
-    "name": "Fever Reducer Syrup 100ML",
+    "name": "Cefixime 200mg 10’s",
     "category": "Medical Conditions",
-    "description": "Lowers high body temperature",
-    "price": 150,
-    "image": "fever_reducer_syrup.jpg"
+    "description": "Antibiotic for urinary tract, ear, and respiratory infections.",
+    "price": 1100,
+    "image": "https://i.postimg.cc/dQWhG8jM/Cefixime.png"
   },
   {
     "id": 154,
-    "name": "Electrolyte Drink 200ML",
+    "name": "Amoxicillin 500mg 21’s",
     "category": "Medical Conditions",
-    "description": "Hydrates and energizes the body",
-    "price": 200,
-    "image": "electrolyte_drink_large.jpg"
+    "description": "Broad-spectrum antibiotic used to treat bacterial infections.",
+    "price": 350,
+    "image": ""
   },
   {
     "id": 155,
-    "name": "Stomach Acid Control 10ML",
+    "name": "Doxycycline 100mg 10’s",
     "category": "Medical Conditions",
-    "description": "Reduces stomach acidity",
-    "price": 10,
-    "image": "acid_control.jpg"
+    "description": "Antibiotic for acne, respiratory infections, and STIs.",
+    "price": 450,
+    "image": "https://i.postimg.cc/bNcwx3SB/Doxycycline-Capsules.png"
   },
   {
     "id": 156,
-    "name": "Wound Healing Spray 60ML",
-    "category": "First Aid & Emergency",
-    "description": "Accelerates wound healing",
-    "price": 100,
-    "image": "wound_healing_spray.jpg"
+    "name": "Metronidazole 400mg 15’s",
+    "category": "Medical Conditions",
+    "description": "Antibiotic and antiprotozoal for gut and vaginal infections.",
+    "price": 250,
+    "image": "https://i.postimg.cc/HsBFYLm9/Metronidazole-Tablets-400mg.png"
   },
   {
     "id": 157,
-    "name": "Pain Relief Oral Solution 250ML",
+    "name": "Cefuroxime 500mg 14’s",
     "category": "Medical Conditions",
-    "description": "Oral painkiller solution",
-    "price": 250,
-    "image": "pain_relief_solution.jpg"
+    "description": "Antibiotic for chest, urinary tract, and ear infections.",
+    "price": 1200,
+    "image": "https://i.postimg.cc/2SdbbgHG/Cefuroxime.png"
   },
   {
     "id": 158,
-    "name": "Cough Suppressant 5ML",
+    "name": "Azithromycin 500mg 5’s",
     "category": "Medical Conditions",
-    "description": "Suppresses dry cough",
-    "price": 5,
-    "image": "cough_suppressant.jpg"
+    "description": "Antibiotic commonly used for chest infections and STIs.",
+    "price": 900,
+    "image": "https://i.postimg.cc/MX2HXYVg/Azithromycin-Tablets.png"
   },
   {
     "id": 159,
-    "name": "Painkiller Drops 60ml/100ml",
+    "name": "Fluconazole 150mg 1’s",
     "category": "Medical Conditions",
-    "description": "Used for quick pain relief",
-    "price": 100,
-    "image": "painkiller_drops.jpg"
+    "description": "Antifungal for vaginal yeast and fungal infections.",
+    "price": 200,
+    "image": "https://i.postimg.cc/13S0jG2W/Fluconazole-Capsules.png"
   },
   {
     "id": 160,
-    "name": "Antacid Suspension 100ML",
-    "category": "Medical Conditions",
-    "description": "Relieves heartburn and acid reflux",
-    "price": 150,
-    "image": "antacid_suspension.jpg"
+    "name": "Ketoconazole Cream 15g",
+    "category": "Beauty & Skin Care",
+    "description": "Topical antifungal cream for skin infections.",
+    "price": 350,
+    "image": "https://i.postimg.cc/RVBnSMdh/Ketoconazole-Shampoo.png"
   },
   {
     "id": 161,
-    "name": "Cold Relief Syrup 100ML",
-    "category": "Medical Conditions",
-    "description": "Treats cold symptoms",
-    "price": 200,
-    "image": "cold_relief.jpg"
+    "name": "Clotrimazole Cream 20g",
+    "category": "Beauty & Skin Care",
+    "description": "Antifungal cream for athlete’s foot, ringworm, and thrush.",
+    "price": 300,
+    "image": "https://i.postimg.cc/pL1TFxfD/Cotrimoxazole.png"
   },
   {
     "id": 162,
-    "name": "Allergy Medicine 10ML",
-    "category": "Medical Conditions",
-    "description": "Reduces allergic reactions",
-    "price": 200,
-    "image": "allergy_medicine.jpg"
+    "name": "Miconazole Cream 20g",
+    "category": "Beauty & Skin Care",
+    "description": "Antifungal cream for skin and vaginal infections.",
+    "price": 380,
+    "image": "https://i.postimg.cc/NMtwyPz6/Miconazole-Oral-Gel.png"
   },
   {
     "id": 163,
-    "name": "Ear Drops 80ML",
-    "category": "Medical Conditions",
-    "description": "Clears ear blockages",
-    "price": 80,
-    "image": "ear_drops.jpg"
+    "name": "Hydrocortisone Cream 15g",
+    "category": "Beauty & Skin Care",
+    "description": "Relieves itching, rashes, and minor skin irritation.",
+    "price": 250,
+    "image": "https://i.postimg.cc/pr7GjmLw/Hydrocortisone-Cream-15g.png"
   },
   {
     "id": 164,
-    "name": "Painkiller Syrup 10ML",
-    "category": "Medical Conditions",
-    "description": "Mild pain relief for children and adults",
-    "price": 300,
-    "image": "painkiller_syrup.jpg"
+    "name": "Betamethasone Cream 15g",
+    "category": "Beauty & Skin Care",
+    "description": "Steroid cream for eczema, dermatitis, and psoriasis.",
+    "price": 280,
+    "image": "https://i.postimg.cc/9X4vm2M6/Betamethasone-Cream-15g.png"
   },
   {
     "id": 165,
-    "name": "Cough Suppressant 7.5ML",
-    "category": "Medical Conditions",
-    "description": "Reduces nighttime coughing",
-    "price": 200,
-    "image": "cough_suppressant_small.jpg"
+    "name": "Fucidin Cream 15g",
+    "category": "Beauty & Skin Care",
+    "description": "Topical antibiotic for infected skin conditions.",
+    "price": 450,
+    "image": "https://i.postimg.cc/QxY9pps9/Fucidin-Cream.png"
   },
   {
     "id": 166,
-    "name": "Rehydration Sachets",
-    "category": "Medical Conditions",
-    "description": "Used for treating dehydration",
+    "name": "Gentamicin Cream 15g",
+    "category": "Beauty & Skin Care",
+    "description": "Antibiotic cream for minor bacterial skin infections.",
     "price": 300,
-    "image": "rehydration_sachets.jpg"
+    "image": "https://i.postimg.cc/jjtb2F9z/Gentamicin-Cream.png"
   },
   {
     "id": 167,
-    "name": "Vitamin Syrup 100ML",
-    "category": "Vitamins & Supplements",
-    "description": "Boosts immunity and energy",
-    "price": 100,
-    "image": "vitamin_syrup.jpg"
+    "name": "Neomycin Cream 15g",
+    "category": "Beauty & Skin Care",
+    "description": "Antibiotic cream for skin cuts and wounds.",
+    "price": 270,
+    "image": "https://i.postimg.cc/WbTCMkSv/Neomycin-Cream.png"
   },
   {
     "id": 168,
-    "name": "Allergy Relief Syrup 10ML",
-    "category": "Medical Conditions",
-    "description": "Reduces allergic reactions",
-    "price": 5,
-    "image": "allergy_relief_syrup.jpg"
+    "name": "Clobetasol Cream 10g",
+    "category": "Beauty & Skin Care",
+    "description": "Potent steroid cream for psoriasis and eczema.",
+    "price": 500,
+    "image": "https://i.postimg.cc/8PcBQkzv/Clobetasol-Cream.png"
   },
   {
     "id": 169,
-    "name": "Antibiotic Suspension 60ML",
-    "category": "Medical Conditions",
-    "description": "Fights bacterial infections",
-    "price": 100,
-    "image": "antibiotic_suspension.jpg"
+    "name": "Erythromycin Ointment 15g",
+    "category": "Beauty & Skin Care",
+    "description": "Antibiotic ointment for skin and eye infections.",
+    "price": 400,
+    "image": "https://i.postimg.cc/wBXDc70C/Erythromycin-Tablets.png"
   },
   {
     "id": 170,
-    "name": "Pain Reliever 100ML",
+    "name": "Tetracycline Eye Ointment 4g",
     "category": "Medical Conditions",
-    "description": "Used for pain management",
+    "description": "Antibiotic ointment for bacterial eye infections.",
     "price": 250,
-    "image": "pain_reliever.jpg"
+    "image": "https://i.postimg.cc/jqgPXV4S/Tetracycline-Eye-Ointment.png"
   },
   {
     "id": 171,
-    "name": "Allergy Drops 5ML",
+    "name": "Chloramphenicol Eye Drops 10ml",
     "category": "Medical Conditions",
-    "description": "Treats mild allergies",
-    "price": 5,
-    "image": "allergy_drops.jpg"
+    "description": "Eye drops for bacterial conjunctivitis and eye infections.",
+    "price": 300,
+    "image": "https://i.postimg.cc/nrJFKhSP/Chloramphenicol-Eye-Drops.png"
   },
   {
     "id": 172,
-    "name": "Multi-use Liquid 60ml/100ml",
-    "category": "Medical Devices",
-    "description": "Used for antiseptic or other external applications",
-    "price": 100,
-    "image": "multi_use_liquid.jpg"
+    "name": "Artificial Tears 10ml",
+    "category": "Personal Care & Hygiene",
+    "description": "Moisturizing drops to relieve dry eyes.",
+    "price": 350,
+    "image": "https://i.postimg.cc/8kt9mCYf/Artificial-Tears.png"
   },
   {
     "id": 173,
-    "name": "Wound Care Solution 100ML",
-    "category": "First Aid & Emergency",
-    "description": "Cleans and protects wounds",
-    "price": 150,
-    "image": "wound_care_solution.jpg"
+    "name": "Olopatadine Eye Drops 5ml",
+    "category": "Medical Conditions",
+    "description": "Antihistamine drops for allergic conjunctivitis.",
+    "price": 800,
+    "image": "https://i.postimg.cc/RVxnNm73/Olopatadine-Eye-Drops.png"
   },
   {
     "id": 174,
-    "name": "Cough Syrup 100ML",
+    "name": "Timolol Eye Drops 5ml",
     "category": "Medical Conditions",
-    "description": "Soothes cough and sore throat",
-    "price": 200,
-    "image": "cough_syrup.jpg"
+    "description": "Used in the treatment of glaucoma to lower eye pressure.",
+    "price": 900,
+    "image": "https://i.postimg.cc/VLNP9rB2/Timolol-Eye-Drops.png"
   },
   {
     "id": 175,
-    "name": "Painkiller Oral Solution 10ML",
+    "name": "Latanoprost Eye Drops 2.5ml",
     "category": "Medical Conditions",
-    "description": "Used for pain relief",
-    "price": 200,
-    "image": "painkiller_oral_solution.jpg"
+    "description": "Reduces high eye pressure in glaucoma and ocular hypertension.",
+    "price": 1500,
+    "image": "https://i.postimg.cc/76PKv76k/Latanoprost-Eye-Drops.png"
   },
   {
     "id": 176,
-    "name": "Antiseptic Mouthwash 10ML",
-    "category": "Personal Care & Hygiene",
-    "description": "Cleans mouth and kills bacteria",
-    "price": 80,
-    "image": "antiseptic_mouthwash.jpg"
+    "name": "Aciclovir Cream 5g",
+    "category": "Beauty & Skin Care",
+    "description": "Antiviral cream for cold sores and herpes infections.",
+    "price": 420,
+    "image": "https://i.postimg.cc/3Jm2y5vY/Aciclovir-Cream.png"
   },
   {
     "id": 177,
-    "name": "Eye Drops 10ML",
-    "category": "Medical Conditions",
-    "description": "Relieves dry or itchy eyes",
-    "price": 300,
-    "image": "eye_drops.jpg"
+    "name": "Salicylic Acid Cream 10g",
+    "category": "Beauty & Skin Care",
+    "description": "Used to treat acne, warts, and rough skin patches.",
+    "price": 350,
+    "image": "https://i.postimg.cc/ht1CCg86/Salicylic-Acid-Cream.png"
   },
   {
     "id": 178,
-    "name": "Nasal Drops 7.5ML",
-    "category": "Medical Conditions",
-    "description": "Clears nasal congestion",
-    "price": 200,
-    "image": "nasal_drops.jpg"
+    "name": "Zinc Oxide Cream 20g",
+    "category": "Beauty & Skin Care",
+    "description": "Protective cream for diaper rash and minor burns.",
+    "price": 250,
+    "image": ""
   },
   {
     "id": 179,
-    "name": "Antacid Sachets",
-    "category": "Medical Conditions",
-    "description": "Used to relieve indigestion and heartburn",
+    "name": "Calamine Lotion 100ml",
+    "category": "Beauty & Skin Care",
+    "description": "Soothes itching, rashes, and insect bites.",
     "price": 300,
-    "image": "antacid_sachets.jpg"
+    "image": "https://i.postimg.cc/Kc3J6trn/calamine-lotion.png"
   },
   {
     "id": 180,
-    "name": "Nausea Treatment Liquid",
+    "name": "Benzyl Benzoate Lotion 100ml",
     "category": "Medical Conditions",
-    "description": "Helps reduce nausea",
-    "price": 100,
-    "image": "nausea_treatment.jpg"
+    "description": "Treatment for scabies and lice infestations.",
+    "price": 450,
+    "image": ""
   },
   {
     "id": 181,
-    "name": "Antifungal Cream 60ML",
-    "category": "Beauty & Skin Care",
-    "description": "Treats fungal infections on the skin",
-    "price": 100,
-    "image": "antifungal_cream.jpg"
+    "name": "Permethrin Cream 30g",
+    "category": "Medical Conditions",
+    "description": "Topical cream for treating scabies and lice.",
+    "price": 600,
+    "image": ""
   },
   {
     "id": 182,
-    "name": "Cough Syrup 60ML",
-    "category": "Medical Conditions",
-    "description": "Relieves coughing and throat irritation",
-    "price": 100,
-    "image": "cough_syrup_60ml.jpg"
+    "name": "Coal Tar Shampoo 100ml",
+    "category": "Personal Care & Hygiene",
+    "description": "Medicated shampoo for dandruff, psoriasis, and eczema.",
+    "price": 500,
+    "image": ""
   },
   {
     "id": 183,
-    "name": "Pain Relief Gel 30GM",
-    "category": "Medical Conditions",
-    "description": "Topical gel for muscle and joint pain",
-    "price": 250,
-    "image": "pain_relief_gel.jpg"
+    "name": "Ketoconazole Shampoo 100ml",
+    "category": "Personal Care & Hygiene",
+    "description": "Anti-dandruff shampoo that treats fungal scalp infections.",
+    "price": 650,
+    "image": ""
   },
   {
     "id": 184,
-    "name": "Allergy Cream 15GM",
-    "category": "Beauty & Skin Care",
-    "description": "Relieves skin allergies and irritation",
-    "price": 400,
-    "image": "allergy_cream.jpg"
+    "name": "Selenium Sulfide Shampoo 100ml",
+    "category": "Personal Care & Hygiene",
+    "description": "Shampoo for dandruff and seborrheic dermatitis.",
+    "price": 550,
+    "image": ""
   },
   {
     "id": 185,
-    "name": "Eye Drops",
-    "category": "Medical Conditions",
-    "description": "Soothes eye discomfort and redness",
-    "price": 20,
-    "image": "eye_drops_generic.jpg"
+    "name": "Benzoyl Peroxide Gel 5% 20g",
+    "category": "Beauty & Skin Care",
+    "description": "Topical gel for acne treatment.",
+    "price": 380,
+    "image": ""
   },
   {
     "id": 186,
-    "name": "Antibiotic Cream",
-    "category": "Medical Conditions",
-    "description": "Topical antibiotic for cuts and wounds",
-    "price": 150,
-    "image": "antibiotic_cream.jpg"
+    "name": "Adapalene Gel 0.1% 15g",
+    "category": "Beauty & Skin Care",
+    "description": "Retinoid gel used for acne treatment.",
+    "price": 450,
+    "image": ""
   },
   {
     "id": 187,
-    "name": "Antiseptic Solution 15GM",
-    "category": "First Aid & Emergency",
-    "description": "Used for wound disinfection",
-    "price": 850,
-    "image": "antiseptic_solution.jpg"
+    "name": "Tretinoin Cream 0.05% 20g",
+    "category": "Beauty & Skin Care",
+    "description": "Topical retinoid for acne and anti-aging treatment.",
+    "price": 600,
+    "image": ""
   },
   {
     "id": 188,
-    "name": "Cold Relief Syrup 30ML",
+    "name": "Isotretinoin Capsules 20mg 10’s",
     "category": "Medical Conditions",
-    "description": "Relieves symptoms of cold",
-    "price": 250,
-    "image": "cold_relief_syrup.jpg"
+    "description": "Oral medication for severe acne unresponsive to other treatments.",
+    "price": 2500,
+    "image": ""
   },
   {
     "id": 189,
-    "name": "Multivitamin Syrup 60ML",
-    "category": "Vitamins & Supplements",
-    "description": "Boosts daily vitamin intake",
-    "price": 150,
-    "image": "multivitamin_syrup.jpg"
+    "name": "Minoxidil Solution 60ml",
+    "category": "Beauty & Skin Care",
+    "description": "Topical solution to promote hair growth in baldness.",
+    "price": 1800,
+    "image": ""
   },
   {
     "id": 190,
-    "name": "Pain Relief Ointment 50ML",
+    "name": "Finasteride Tablets 1mg 28’s",
     "category": "Medical Conditions",
-    "description": "Soothes aches and muscle pain",
-    "price": 150,
-    "image": "pain_relief_ointment.jpg"
+    "description": "Oral treatment for male pattern baldness.",
+    "price": 2200,
+    "image": ""
   },
   {
     "id": 191,
-    "name": "Burn Relief Cream",
-    "category": "First Aid & Emergency",
-    "description": "Used to soothe minor burns",
-    "price": 10,
-    "image": "burn_relief_cream.jpg"
+    "name": "Biotin Capsules 60’s",
+    "category": "Vitamins & Supplements",
+    "description": "Supports healthy hair, skin, and nails.",
+    "price": 950,
+    "image": ""
   },
   {
     "id": 192,
-    "name": "Fever Syrup 60ML",
-    "category": "Medical Conditions",
-    "description": "Reduces fever and pain",
-    "price": 150,
-    "image": "fever_syrup.jpg"
+    "name": "Vitamin E Capsules 100’s",
+    "category": "Vitamins & Supplements",
+    "description": "Antioxidant that supports skin and immune health.",
+    "price": 800,
+    "image": ""
   },
   {
     "id": 193,
-    "name": "Anti-Itch Cream 20GM",
+    "name": "Vitamin C Serum 30ml",
     "category": "Beauty & Skin Care",
-    "description": "Relieves itching and skin irritation",
-    "price": 200,
-    "image": "anti_itch_cream.jpg"
+    "description": "Brightening serum that improves skin tone and texture.",
+    "price": 1200,
+    "image": ""
   },
   {
     "id": 194,
-    "name": "Moisturizing Lotion 15GM",
+    "name": "Hyaluronic Acid Serum 30ml",
     "category": "Beauty & Skin Care",
-    "description": "Hydrates and softens dry skin",
-    "price": 49,
-    "image": "moisturizing_lotion.jpg"
+    "description": "Hydrating serum that plumps and moisturizes skin.",
+    "price": 1500,
+    "image": ""
   },
   {
     "id": 195,
-    "name": "Cough Syrup 200ML",
-    "category": "Medical Conditions",
-    "description": "Relieves persistent cough",
+    "name": "Retinol Serum 30ml",
+    "category": "Beauty & Skin Care",
+    "description": "Anti-aging serum that reduces wrinkles and fine lines.",
+    "price": 1800,
+    "image": ""
+  },
+  {
+    "id": 196,
+    "name": "Niacinamide Serum 30ml",
+    "category": "Beauty & Skin Care",
+    "description": "Serum that reduces acne scars and improves skin barrier.",
+    "price": 1300,
+    "image": ""
+  },
+  {
+    "id": 197,
+    "name": "Sunscreen SPF 50 50ml",
+    "category": "Beauty & Skin Care",
+    "description": "Protects skin from harmful UVA and UVB rays.",
+    "price": 1000,
+    "image": ""
+  },
+  {
+    "id": 198,
+    "name": "Aloe Vera Gel 100g",
+    "category": "Beauty & Skin Care",
+    "description": "Soothing gel for sunburns, irritation, and hydration.",
+    "price": 400,
+    "image": ""
+  },
+  {
+    "id": 199,
+    "name": "Tea Tree Oil 30ml",
+    "category": "Beauty & Skin Care",
+    "description": "Essential oil with antibacterial and antifungal properties.",
     "price": 600,
-    "image": "cough_syrup_200ml.jpg"
+    "image": ""
+  },
+  {
+    "id": 200,
+    "name": "Rose Water 120ml",
+    "category": "Beauty & Skin Care",
+    "description": "Natural toner that refreshes and hydrates the skin.",
+    "price": 350,
+    "image": ""
+  },
+  {
+    "id": 201,
+    "name": "Panadol Cold & Flu Tablets",
+    "category": "Medical Conditions",
+    "description": "Relieves symptoms of cold and flu such as headache, fever, nasal congestion, and body aches.",
+    "price": 450,
+    "image": ""
+  },
+  {
+    "id": 202,
+    "name": "ORS Sachets",
+    "category": "Medical Conditions",
+    "description": "Oral rehydration salts used to replace lost fluids and electrolytes during diarrhea and dehydration.",
+    "price": 150,
+    "image": ""
+  },
+  {
+    "id": 203,
+    "name": "Deep Heat Cream",
+    "category": "Medical Conditions",
+    "description": "Topical cream providing relief from muscular aches, stiffness, and back pain.",
+    "price": 550,
+    "image": ""
+  },
+  {
+    "id": 204,
+    "name": "Zinc Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Supports immune system health and wound healing, and reduces the severity of colds.",
+    "price": 400,
+    "image": ""
+  },
+  {
+    "id": 205,
+    "name": "Ferrous Sulphate Tablets",
+    "category": "Vitamins & Supplements",
+    "description": "Iron supplement used to treat and prevent iron-deficiency anemia.",
+    "price": 380,
+    "image": ""
+  },
+  {
+    "id": 206,
+    "name": "Vitamin D3 Capsules",
+    "category": "Vitamins & Supplements",
+    "description": "Supports bone health, calcium absorption, and immune system function.",
+    "price": 500,
+    "image": ""
+  },
+  {
+    "id": 207,
+    "name": "Imodium Capsules",
+    "category": "Medical Conditions",
+    "description": "Provides fast relief from acute diarrhea by slowing intestinal movement.",
+    "price": 600,
+    "image": ""
+  },
+  {
+    "id": 208,
+    "name": "Betadine Antiseptic Solution",
+    "category": "First Aid & Emergency",
+    "description": "Used for cleaning wounds, cuts, and preventing infection with antiseptic action.",
+    "price": 700,
+    "image": ""
+  },
+  {
+    "id": 209,
+    "name": "Salbutamol Inhaler",
+    "category": "Medical Devices",
+    "description": "Relieves symptoms of asthma and chronic obstructive pulmonary disease by relaxing airway muscles.",
+    "price": 1200,
+    "image": ""
+  },
+  {
+    "id": 210,
+    "name": "Cetirizine Tablets",
+    "category": "Medical Conditions",
+    "description": "Antihistamine used to relieve allergy symptoms such as runny nose, sneezing, and itchy eyes.",
+    "price": 300,
+    "image": ""
+  },
+  {
+    "id": 211,
+    "name": "Glycerin Soap",
+    "category": "Beauty & Skin Care",
+    "description": "Moisturizing soap gentle on sensitive skin, helps keep skin soft and hydrated.",
+    "price": 250,
+    "image": ""
   }
 ]
